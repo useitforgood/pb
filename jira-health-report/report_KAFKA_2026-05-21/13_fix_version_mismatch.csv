@@ -1,0 +1,21 @@
+key,summary,assignee,priority,status,last_updated,url
+KAFKA-19438,Request for Assistance: FileSystemException Errors on Kafka,Unassigned,Critical,Open,2025-06-28,https://issues.apache.org/jira/browse/KAFKA-19438
+KAFKA-18233,Mirrormaker 2 All Checkpoint Connector CPC tasks gracefully,Unassigned,Major,Open,2024-12-13,https://issues.apache.org/jira/browse/KAFKA-18233
+KAFKA-17840,Move ReplicationQuotaManager ClientRequestQuotaManager,PoAn Yang,Major,Reopened,2026-03-23,https://issues.apache.org/jira/browse/KAFKA-17840
+KAFKA-17504,Error related to EKU in Kafka version,Unassigned,Major,Open,2024-09-09,https://issues.apache.org/jira/browse/KAFKA-17504
+KAFKA-17490,UpdateMetadataRequest failed because of ClusterAuthorizationE,jirar,Major,Patch Available,2024-09-06,https://issues.apache.org/jira/browse/KAFKA-17490
+KAFKA-17107,Backport of PR-15327,Kartik Goyal,Major,Open,2024-07-10,https://issues.apache.org/jira/browse/KAFKA-17107
+KAFKA-16848,Reverting KRaft migration for Migrating brokers to KRaft,Edgar,Major,Patch Available,2024-09-24,https://issues.apache.org/jira/browse/KAFKA-16848
+KAFKA-16808,Consumer join Group response contains 2 different members,Unassigned,Critical,Open,2024-05-21,https://issues.apache.org/jira/browse/KAFKA-16808
+KAFKA-16699,Have Streams treat InvalidPidMappingException like a ProducerFenced,Walker Carlson,Major,Patch Available,2024-11-20,https://issues.apache.org/jira/browse/KAFKA-16699
+KAFKA-16145,Windows Kafka Shutdown,Unassigned,Major,Open,2024-02-14,https://issues.apache.org/jira/browse/KAFKA-16145
+KAFKA-15369,Allow AdminClient to Talk Directly with the KRaft Controller,Colin McCabe,Major,Reopened,2025-01-07,https://issues.apache.org/jira/browse/KAFKA-15369
+KAFKA-15171,Kafka client poll never notifies when broker is down,Unassigned,Major,Open,2023-07-10,https://issues.apache.org/jira/browse/KAFKA-15171
+KAFKA-14956,Flaky test org.apache.kafka.connect.integration.OffsetsIntegration,Unassigned,Major,Reopened,2024-06-30,https://issues.apache.org/jira/browse/KAFKA-14956
+KAFKA-13960,ERROR Shutdown broker because all log dirs in c:\kafka,Unassigned,Critical,Open,2022-06-04,https://issues.apache.org/jira/browse/KAFKA-13960
+KAFKA-13796,MM2 Topics Exclude/Blacklist not working,Unassigned,Blocker,Open,2022-07-24,https://issues.apache.org/jira/browse/KAFKA-13796
+KAFKA-13594,Vulnerability found in Log4j,Unassigned,Major,Open,2022-01-15,https://issues.apache.org/jira/browse/KAFKA-13594
+KAFKA-13581,Error getting old protocol,Unassigned,Minor,Open,2022-01-18,https://issues.apache.org/jira/browse/KAFKA-13581
+KAFKA-12887,Do not trigger user-customized ExceptionalHandler for RebalanceException,Josep Prat,Major,Reopened,2023-07-05,https://issues.apache.org/jira/browse/KAFKA-12887
+KAFKA-12846,Logic in Consumer Fetch logic,Unassigned,Trivial,Open,2021-05-25,https://issues.apache.org/jira/browse/KAFKA-12846
+KAFKA-12784,ssl kafka failed,Unassigned,Major,Open,2021-05-14,https://issues.apache.org/jira/browse/KAFKA-12784

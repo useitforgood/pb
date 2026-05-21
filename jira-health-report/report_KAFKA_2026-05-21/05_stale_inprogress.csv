@@ -1,0 +1,101 @@
+key,summary,assignee,priority,status,last_updated,url
+KAFKA-20195,Better offset reset functionality for the new consumer group rebalance protocol,Levani Kokhreidze,Major,In Progress,2026-02-18,https://issues.apache.org/jira/browse/KAFKA-20195
+KAFKA-20088,CIDR-based Host Patterns for ACLs,Maros Orsak,Major,In Progress,2026-01-25,https://issues.apache.org/jira/browse/KAFKA-20088
+KAFKA-20029,Disallow partition count increase for __transaction_state.,sanghyeok An,Minor,In Progress,2026-01-07,https://issues.apache.org/jira/browse/KAFKA-20029
+KAFKA-19989,coordinator-common | Fix order of arguments in assertEquals() in unit tests,Ksolves India Limited,Minor,In Progress,2025-12-12,https://issues.apache.org/jira/browse/KAFKA-19989
+KAFKA-19986,Server | Fix order of arguments of assertEquals in unit tests,Ksolves India Limited,Trivial,In Progress,2025-12-22,https://issues.apache.org/jira/browse/KAFKA-19986
+KAFKA-19936,ReplicaManager counts duplicated records to BytesInPerSec and MessagesInPerSec m,PoAn Yang,Major,In Progress,2026-01-03,https://issues.apache.org/jira/browse/KAFKA-19936
+KAFKA-19910,Support rack awareness in UniformHeterogeneousAssignmentBuilder,PoAn Yang,Major,In Progress,2025-11-23,https://issues.apache.org/jira/browse/KAFKA-19910
+KAFKA-19901,improve the error message when changing the configuration of dynamic voters,HongYi Chen,Minor,In Progress,2025-12-01,https://issues.apache.org/jira/browse/KAFKA-19901
+KAFKA-19670,Unify the command-line parser,HongYi Chen,Major,In Progress,2025-09-10,https://issues.apache.org/jira/browse/KAFKA-19670
+KAFKA-19613,Expose consumer CorruptRecordException,Uladzislau Blok,Minor,In Progress,2026-01-15,https://issues.apache.org/jira/browse/KAFKA-19613
+KAFKA-19430,Don't fail on RecordCorruptedException,Uladzislau Blok,Major,In Progress,2026-01-30,https://issues.apache.org/jira/browse/KAFKA-19430
+KAFKA-19399,The version and source link in the `NOTICE-binary` file for `Mockito` are incons,Palak Kapoor,Minor,In Progress,2025-07-21,https://issues.apache.org/jira/browse/KAFKA-19399
+KAFKA-19387,Support rack awareness in Range and Uniform assignors,PoAn Yang,Major,In Progress,2026-01-22,https://issues.apache.org/jira/browse/KAFKA-19387
+KAFKA-19272,Handling different scenarios for initPid(keepPrepared=true),Ritika Reddy,Major,In Progress,2025-07-22,https://issues.apache.org/jira/browse/KAFKA-19272
+KAFKA-19200,Indexes should be sanity checked on startup,Gaurav Narula,Major,In Progress,2025-05-01,https://issues.apache.org/jira/browse/KAFKA-19200
+KAFKA-19167,Move RemoteLogManagerConfig out of KafkaConfig,HongYi Chen,Minor,In Progress,2025-09-01,https://issues.apache.org/jira/browse/KAFKA-19167
+KAFKA-19097,Fix order of arguments to assertEquals,Ksolves India Limited,Minor,In Progress,2025-12-26,https://issues.apache.org/jira/browse/KAFKA-19097
+KAFKA-19034,Rewrite RemoteTopicCrudTest by ClusterTest and move it to storage module,HongYi Chen,Major,In Progress,2025-05-25,https://issues.apache.org/jira/browse/KAFKA-19034
+KAFKA-18877,an mechanism to find cases where we accessed variables from the wrong thread,TengYao Chi,Major,In Progress,2025-09-26,https://issues.apache.org/jira/browse/KAFKA-18877
+KAFKA-18754,Allow PlainSaslServer to pass client info through the negotiated properties.,Nelson B.,Minor,In Progress,2026-01-28,https://issues.apache.org/jira/browse/KAFKA-18754
+KAFKA-18721,Controller automatically detects and performs unclean elections,Jonah Hooper,Minor,In Progress,2025-04-01,https://issues.apache.org/jira/browse/KAFKA-18721
+KAFKA-18717,Unclean Recovery: thread-pool,Jonah Hooper,Minor,In Progress,2025-04-01,https://issues.apache.org/jira/browse/KAFKA-18717
+KAFKA-18716,Unclean Recovery: Election state-machine,Jonah Hooper,Major,In Progress,2025-04-01,https://issues.apache.org/jira/browse/KAFKA-18716
+KAFKA-18715,Unclean Recovery: Aggressive strategy,Jonah Hooper,Major,In Progress,2025-04-01,https://issues.apache.org/jira/browse/KAFKA-18715
+KAFKA-18707,Move KRaftMetadataCachePublisher to metadata module,PoAn Yang,Major,In Progress,2025-02-04,https://issues.apache.org/jira/browse/KAFKA-18707
+KAFKA-18644,Improve type safety in DSL code,Matthias J. Sax,Major,In Progress,2025-02-06,https://issues.apache.org/jira/browse/KAFKA-18644
+KAFKA-18602,Incorrect FinalizedVersionLevel reported for dynamic KRaft quorum.,PoAn Yang,Critical,In Progress,2025-04-10,https://issues.apache.org/jira/browse/KAFKA-18602
+KAFKA-18333,Simulation test should include invariant that quorum state never loses state,PoAn Yang,Major,In Progress,2025-01-17,https://issues.apache.org/jira/browse/KAFKA-18333
+KAFKA-18166,Indefinite timeout when publishing events to RLMM (RemoteLogMetadataManager),PoAn Yang,Minor,In Progress,2025-12-15,https://issues.apache.org/jira/browse/KAFKA-18166
+KAFKA-18039,Test all versions of quorum responses in RequestResponseTest ,Chu Cheng Li,Major,In Progress,2025-04-14,https://issues.apache.org/jira/browse/KAFKA-18039
+KAFKA-17849,Remove  UnsupportedOperationException  in MockController,TaiJuWu,Minor,In Progress,2024-12-02,https://issues.apache.org/jira/browse/KAFKA-17849
+KAFKA-17828,Reverse Checkpointing in MirrorMaker2,Daniel Urban,Major,In Progress,2025-06-11,https://issues.apache.org/jira/browse/KAFKA-17828
+KAFKA-17815,migrate vagrant from zk to kraft,PoAn Yang,Major,In Progress,2025-02-21,https://issues.apache.org/jira/browse/KAFKA-17815
+KAFKA-17694,Migrate SaslClientsWithInvalidCredentialsTest to new test infra,PoAn Yang,Major,In Progress,2025-04-01,https://issues.apache.org/jira/browse/KAFKA-17694
+KAFKA-17628,Automate workflow approvals for CI,David Arthur,Minor,In Progress,2024-09-27,https://issues.apache.org/jira/browse/KAFKA-17628
+KAFKA-17601,Inter-broker connections do not expose their clientSoftwareName and clientSoftwa,PoAn Yang,Minor,In Progress,2025-11-14,https://issues.apache.org/jira/browse/KAFKA-17601
+KAFKA-17523,Connectors should be able to override offset.flush.interval.ms,Gergely Harmadás,Major,In Progress,2025-12-11,https://issues.apache.org/jira/browse/KAFKA-17523
+KAFKA-17503,The poll-idle-ratio-avg consumer metric is calculated incorrectly,Stig Rohde Døssing,Minor,In Progress,2025-06-01,https://issues.apache.org/jira/browse/KAFKA-17503
+KAFKA-17381,Reduce log output from checkstyle task,PoAn Yang,Minor,In Progress,2025-02-06,https://issues.apache.org/jira/browse/KAFKA-17381
+KAFKA-17261,Support to create a quorum controller which is not in cluster,Kuan Po Tseng,Major,In Progress,2025-02-11,https://issues.apache.org/jira/browse/KAFKA-17261
+KAFKA-17252,Forwarded source task zombie fencings may fail when leader has just started,Chris Egerton,Major,In Progress,2025-02-06,https://issues.apache.org/jira/browse/KAFKA-17252
+KAFKA-17241,KIP-853 follow-ups,José Armando García Sancio,Major,In Progress,2025-01-17,https://issues.apache.org/jira/browse/KAFKA-17241
+KAFKA-17221,Flaky test DedicatedMirrorIntegrationTest::testMultiNodeCluster,Chris Egerton,Major,In Progress,2024-07-31,https://issues.apache.org/jira/browse/KAFKA-17221
+KAFKA-17220,Define new metrics for MirrorMaker2,PoAn Yang,Major,In Progress,2024-09-17,https://issues.apache.org/jira/browse/KAFKA-17220
+KAFKA-17187,Add executor-AlterAcls to ClusterTestExtensions#SKIPPED_THREAD_PREFIX,PoAn Yang,Minor,In Progress,2024-07-23,https://issues.apache.org/jira/browse/KAFKA-17187
+KAFKA-17027,Inconsistent casing in Selector metrics tags,PoAn Yang,Major,In Progress,2024-06-26,https://issues.apache.org/jira/browse/KAFKA-17027
+KAFKA-16995,The listeners broker parameter incorrect documentation ,dujian0068,Minor,In Progress,2026-01-19,https://issues.apache.org/jira/browse/KAFKA-16995
+KAFKA-16925,stream-table join does not immediately forward expired records on restart,Ayoub Omari,Major,In Progress,2026-01-28,https://issues.apache.org/jira/browse/KAFKA-16925
+KAFKA-16907,Fix RaftUtil's type complexity,TengYao Chi,Minor,In Progress,2025-08-31,https://issues.apache.org/jira/browse/KAFKA-16907
+KAFKA-16871,Clean up internal AssignmentConfigs class in Streams,João Pedro Fonseca,Major,In Progress,2024-09-04,https://issues.apache.org/jira/browse/KAFKA-16871
+KAFKA-16823,Extract LegacyConsumer-specific unit tests from generic KafkaConsumerTest ,PoAn Yang,Major,In Progress,2025-02-05,https://issues.apache.org/jira/browse/KAFKA-16823
+KAFKA-16707,Adding new Principal Types on Standard ACL side for filtering KafkaPrincipal,Franck LEDAY,Major,In Progress,2025-02-05,https://issues.apache.org/jira/browse/KAFKA-16707
+KAFKA-16655,deflake ZKMigrationIntegrationTest.testDualWrite,Alyssa Huang,Minor,In Progress,2024-05-03,https://issues.apache.org/jira/browse/KAFKA-16655
+KAFKA-16282,Allow to get last stable offset (LSO) in kafka-get-offsets.sh,Ahmed Sobeh,Major,In Progress,2024-02-27,https://issues.apache.org/jira/browse/KAFKA-16282
+KAFKA-16264,Expose `producer.id.expiration.check.interval.ms` as dynamic broker configuratio,Jorge Esteban Quilcate Otoya,Major,In Progress,2025-01-05,https://issues.apache.org/jira/browse/KAFKA-16264
+KAFKA-16242,Mark flaky tests as integration tests,Greg Harris,Major,In Progress,2025-01-04,https://issues.apache.org/jira/browse/KAFKA-16242
+KAFKA-16214,No user info when SASL authentication failure,Luke Chen,Major,In Progress,2025-01-04,https://issues.apache.org/jira/browse/KAFKA-16214
+KAFKA-16212,Cache partitions by TopicIdPartition instead of TopicPartition,Omnia Ibrahim,Major,In Progress,2024-04-25,https://issues.apache.org/jira/browse/KAFKA-16212
+KAFKA-16070,Extract the setReadOnly method into Headers,Unassigned,Major,In Progress,2024-04-03,https://issues.apache.org/jira/browse/KAFKA-16070
+KAFKA-16042,Quota Metrics based on per topic-partition produce/fetch byte rate,Afshin Moazami,Minor,In Progress,2025-05-14,https://issues.apache.org/jira/browse/KAFKA-16042
+KAFKA-15995,Mechanism for plugins and connectors to register metrics,Mickael Maison,Major,In Progress,2025-09-30,https://issues.apache.org/jira/browse/KAFKA-15995
+KAFKA-15994,Add complex example compose file,Vedarth Sharma,Major,In Progress,2025-01-09,https://issues.apache.org/jira/browse/KAFKA-15994
+KAFKA-15917,Flaky test - OffsetsApiIntegrationTest.testAlterSinkConnectorOffsetsZombieSinkTa,Chris Egerton,Major,In Progress,2024-07-03,https://issues.apache.org/jira/browse/KAFKA-15917
+KAFKA-15895,Move DynamicBrokerConfig to server module,TengYao Chi,Major,In Progress,2025-02-15,https://issues.apache.org/jira/browse/KAFKA-15895
+KAFKA-15891,Flaky test: testResetSinkConnectorOffsetsOverriddenConsumerGroupId – org.apache.,Unassigned,Major,In Progress,2025-05-13,https://issues.apache.org/jira/browse/KAFKA-15891
+KAFKA-15845,Add Junit5 test extension which detects leaked Kafka clients and servers,Greg Harris,Major,In Progress,2025-05-25,https://issues.apache.org/jira/browse/KAFKA-15845
+KAFKA-15801,improve Kafka broker/NetworkClient logging for connectivity issues with hostname,johndoe,Trivial,In Progress,2025-01-03,https://issues.apache.org/jira/browse/KAFKA-15801
+KAFKA-15777,Configurable remote fetch bytes per partition from Consumer,Kamal Chandraprakash,Major,In Progress,2025-05-07,https://issues.apache.org/jira/browse/KAFKA-15777
+KAFKA-15715,KRaft support in UpdateFeaturesTest,Walter Hernandez,Minor,In Progress,2024-04-22,https://issues.apache.org/jira/browse/KAFKA-15715
+KAFKA-15712,KRaft support in MultipleListenersWithSameSecurityProtocolBaseTest,Sushant Mahajan,Minor,In Progress,2025-01-14,https://issues.apache.org/jira/browse/KAFKA-15712
+KAFKA-15599,Move classes in kafka.raft from core module to raft module,Mickael Maison,Major,In Progress,2026-01-30,https://issues.apache.org/jira/browse/KAFKA-15599
+KAFKA-15494,Remove deprecated calls in build.gradle for preparing future upgrades,Said BOUDJELDA,Major,In Progress,2024-10-22,https://issues.apache.org/jira/browse/KAFKA-15494
+KAFKA-15468,Prevent transaction coordinator reloads on already loaded leaders,Justine Olshan,Major,In Progress,2024-08-09,https://issues.apache.org/jira/browse/KAFKA-15468
+KAFKA-15343,Fix MirrorConnectIntegrationTests causing ci build failures.,Greg Harris,Major,In Progress,2024-02-14,https://issues.apache.org/jira/browse/KAFKA-15343
+KAFKA-15331,Handle remote log enabled topic deletion when leader is not available,ally heev,Major,In Progress,2025-07-14,https://issues.apache.org/jira/browse/KAFKA-15331
+KAFKA-15198,Improve version release scripts,Unassigned,Major,In Progress,2024-09-05,https://issues.apache.org/jira/browse/KAFKA-15198
+KAFKA-15172,Allow exact mirroring of ACLs between clusters,hudeqi,Major,In Progress,2023-08-15,https://issues.apache.org/jira/browse/KAFKA-15172
+KAFKA-15094,Add RemoteIndexCache metrics like misses/evictions/load-failures.,Abhijeet Kumar,Major,In Progress,2025-01-27,https://issues.apache.org/jira/browse/KAFKA-15094
+KAFKA-15090,Source tasks are no longer stopped on a separate thread,Chris Egerton,Major,In Progress,2025-01-03,https://issues.apache.org/jira/browse/KAFKA-15090
+KAFKA-15086,The unreasonable segment size setting of the internal topics in MM2 may cause th,hudeqi,Major,In Progress,2024-12-31,https://issues.apache.org/jira/browse/KAFKA-15086
+KAFKA-15075,MM2 internal checkpoints topic should support multiple partitions,Unassigned,Major,In Progress,2024-08-30,https://issues.apache.org/jira/browse/KAFKA-15075
+KAFKA-14941,Document which configuration options are applicable only to processes with broke,Gantigmaa Selenge,Major,In Progress,2024-08-20,https://issues.apache.org/jira/browse/KAFKA-14941
+KAFKA-14919,MM2 ForwardingAdmin tests should not conflate admin operations,Anton Liauchuk,Minor,In Progress,2025-02-05,https://issues.apache.org/jira/browse/KAFKA-14919
+KAFKA-14854,Refactor inter broker send thread to handle all interbroker requests on one thre,Justine Olshan,Major,In Progress,2025-04-02,https://issues.apache.org/jira/browse/KAFKA-14854
+KAFKA-14692,Issues in Zookeeper to KRaft migration docs,David Arthur,Major,In Progress,2025-01-23,https://issues.apache.org/jira/browse/KAFKA-14692
+KAFKA-14670,Refactor connect plugins to be called from wrapper classes,Greg Harris,Minor,In Progress,2025-01-27,https://issues.apache.org/jira/browse/KAFKA-14670
+KAFKA-14652,Improve MM2 logging by adding the flow information to the context (KIP-916),Daniel Urban,Major,In Progress,2025-01-02,https://issues.apache.org/jira/browse/KAFKA-14652
+KAFKA-14636,Compression optimization: Use zstd dictionary based (de)compression,Christo Lolov,Major,In Progress,2023-02-06,https://issues.apache.org/jira/browse/KAFKA-14636
+KAFKA-14541,Profile produce workload for Apache Kafka,Divij Vaidya,Major,In Progress,2022-12-23,https://issues.apache.org/jira/browse/KAFKA-14541
+KAFKA-14396,Flaky memory leak tests rely on System.gc for correctness,Chia-Ping Tsai,Minor,In Progress,2024-08-05,https://issues.apache.org/jira/browse/KAFKA-14396
+KAFKA-14281,Multi-level rack awareness,Viktor Somogyi-Vass,Major,In Progress,2022-10-28,https://issues.apache.org/jira/browse/KAFKA-14281
+KAFKA-14237,Kafka TLS Doesn't Present Intermediary Certificates when using PEM,Anurag J,Blocker,In Progress,2025-12-03,https://issues.apache.org/jira/browse/KAFKA-14237
+KAFKA-14165,ConfigTransformer.DEFAULT_PATTERN fails on Windows platform,Unassigned,Major,In Progress,2022-09-05,https://issues.apache.org/jira/browse/KAFKA-14165
+KAFKA-14131,KafkaBasedLog#readToLogEnd() may accciedently falls into infinite loop,Sambhav Jain,Major,In Progress,2023-07-17,https://issues.apache.org/jira/browse/KAFKA-14131
+KAFKA-13866,Support more advanced time retention policies,Nikolay Izhikov,Major,In Progress,2022-09-23,https://issues.apache.org/jira/browse/KAFKA-13866
+KAFKA-13625,Fix inconsistency in dynamic application log levels,Dongjin Lee,Minor,In Progress,2025-01-25,https://issues.apache.org/jira/browse/KAFKA-13625
+KAFKA-13516,Connection level metrics are not closed,Dongjin Lee,Major,In Progress,2025-01-25,https://issues.apache.org/jira/browse/KAFKA-13516
+KAFKA-13508,"Introduction of ""-head"" flag for describe tool for broker",Unassigned,Minor,In Progress,2024-06-25,https://issues.apache.org/jira/browse/KAFKA-13508
+KAFKA-13395,Emit Client Quota Values as Metric,Mason Joseph Legere,Minor,In Progress,2025-01-25,https://issues.apache.org/jira/browse/KAFKA-13395
+KAFKA-13365,Improve MirrorMaker2's client configuration,Dongjin Lee,Critical,In Progress,2025-01-25,https://issues.apache.org/jira/browse/KAFKA-13365

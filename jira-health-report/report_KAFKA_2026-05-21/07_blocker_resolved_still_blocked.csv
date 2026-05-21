@@ -1,0 +1,15 @@
+key,summary,assignee,priority,status,last_updated,url
+KAFKA-17261,Support to create a quorum controller which is not in cluste,Kuan Po Tseng,Major,In Progress,2025-02-11,https://issues.apache.org/jira/browse/KAFKA-17261
+KAFKA-15895,Move DynamicBrokerConfig to server module,TengYao Chi,Major,In Progress,2025-02-15,https://issues.apache.org/jira/browse/KAFKA-15895
+KAFKA-15853,Move KafkaConfig to server module,Christo Lolov,Major,In Progress,2026-05-11,https://issues.apache.org/jira/browse/KAFKA-15853
+KAFKA-15370,Support Participation in 2PC (KIP-939),Unassigned,Major,Open,2026-04-30,https://issues.apache.org/jira/browse/KAFKA-15370
+KAFKA-14470,Move log layer to storage module,Ismael Juma,Major,Open,2024-12-07,https://issues.apache.org/jira/browse/KAFKA-14470
+KAFKA-10877,Instantiating loggers for every FetchContext causes low requ,Sean McCauliff,Major,Open,2025-01-01,https://issues.apache.org/jira/browse/KAFKA-10877
+KAFKA-10483,extract common functions from SourceConnector and SourceTask,Ning Zhang,Major,Patch Available,2020-09-15,https://issues.apache.org/jira/browse/KAFKA-10483
+KAFKA-10370,WorkerSinkTask: IllegalStateException caused by consumer.seek,Unassigned,Major,Reopened,2024-07-05,https://issues.apache.org/jira/browse/KAFKA-10370
+KAFKA-8468,AdminClient.deleteTopics doesn't wait until topic is deleted,Viktor Somogyi-Vass,Major,Open,2022-04-28,https://issues.apache.org/jira/browse/KAFKA-8468
+KAFKA-7187,offsetsForTimes in MockConsumer implementation,Unassigned,Minor,Open,2024-12-22,https://issues.apache.org/jira/browse/KAFKA-7187
+KAFKA-4740,Using new consumer API with Deserializer that throws SerializationEx,Sébastien Launay,Critical,Open,2024-12-22,https://issues.apache.org/jira/browse/KAFKA-4740
+KAFKA-2170,10 LogTest cases failed for file.renameTo failed under windows,Jay Kreps,Major,Open,2024-11-14,https://issues.apache.org/jira/browse/KAFKA-2170
+KAFKA-1694,KIP-4: Command line and centralized operations,Unassigned,Critical,In Progress,2021-07-13,https://issues.apache.org/jira/browse/KAFKA-1694
+KAFKA-1682,Security for Kafka,Unassigned,Major,Open,2015-10-12,https://issues.apache.org/jira/browse/KAFKA-1682

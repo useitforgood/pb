@@ -1,0 +1,16 @@
+key,summary,assignee,priority,status,last_updated,url
+KAFKA-20412,Fix prefixScan for KV-Store with headers,Uladzislau Blok,Major,In Progress,2026-05-03,https://issues.apache.org/jira/browse/KAFKA-20412
+KAFKA-20263,Change KeyValueWrapper to have versioned and headersStore,Alieh Saeedi,Major,Resolved,2026-04-08,https://issues.apache.org/jira/browse/KAFKA-20263
+KAFKA-19738,Improve testing of OffsetsRequestManager,Evan Zhou,Minor,Open,2026-03-13,https://issues.apache.org/jira/browse/KAFKA-19738
+KAFKA-18187,Replicas that receive EndQuorum should grant preVotes,Unassigned,Minor,Open,2026-04-04,https://issues.apache.org/jira/browse/KAFKA-18187
+KAFKA-15768,StateQueryResult getOnlyPartitionResult should not throw,Gavin Wang,Major,Resolved,2026-05-05,https://issues.apache.org/jira/browse/KAFKA-15768
+KAFKA-14405,Log a warning when users attempt to set a controlled config,Arpit Goyal,Major,Open,2026-04-14,https://issues.apache.org/jira/browse/KAFKA-14405
+KAFKA-14192,Move registering and unregistering changelogs to state updater,Nikita Shupletsov,Major,Resolved,2026-05-04,https://issues.apache.org/jira/browse/KAFKA-14192
+KAFKA-8382,Add TimestampedSessionStore,Unassigned,Minor,Open,2026-02-26,https://issues.apache.org/jira/browse/KAFKA-8382
+KAFKA-1614,Partition log directory name and segments information exposed,Unassigned,Major,Open,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-1614
+KAFKA-1610,Local modifications to collections generated from mapValues,Unassigned,Major,Resolved,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-1610
+KAFKA-1591,Clean-up Unnecessary stack trace in error/warn logs,Unassigned,Major,Resolved,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-1591
+KAFKA-1590,Binarize trace level request logging along with debug level,Unassigned,Major,Resolved,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-1590
+KAFKA-1566,Kafka environment configuration (kafka-env.sh),Unassigned,Major,Resolved,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-1566
+KAFKA-1300,Added WaitForReplaction admin tool,Unassigned,Major,Resolved,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-1300
+KAFKA-859,support basic auth protection of mx4j console,Unassigned,Major,Resolved,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-859

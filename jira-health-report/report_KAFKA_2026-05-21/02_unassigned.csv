@@ -1,0 +1,99 @@
+key,summary,assignee,priority,status,last_updated,url
+KAFKA-20025,Missing dynamic SSL reconfiguration support for KafkaRaftClient,Unassigned,Major,Patch Available,2026-04-16,https://issues.apache.org/jira/browse/KAFKA-20025
+KAFKA-19674,Disallow create too many partitions in ZK mode,Unassigned,Major,Patch Available,2026-04-24,https://issues.apache.org/jira/browse/KAFKA-19674
+KAFKA-19673,Disallow create too many partitions also in createPartitions,Unassigned,Major,Patch Available,2026-05-07,https://issues.apache.org/jira/browse/KAFKA-19673
+KAFKA-18994,Wrong configuration in docker-compose.yml example,Unassigned,Minor,Patch Available,2025-03-15,https://issues.apache.org/jira/browse/KAFKA-18994
+KAFKA-18852,ApiVersions should use Concurrent Collections instead of sychronised,Unassigned,Minor,Patch Available,2025-02-24,https://issues.apache.org/jira/browse/KAFKA-18852
+KAFKA-16951,TransactionManager should rediscover coordinator on disconnection,Unassigned,Major,Patch Available,2025-06-01,https://issues.apache.org/jira/browse/KAFKA-16951
+KAFKA-16923,New Unit Test for stripDotPathComponents method,Unassigned,Minor,Patch Available,2024-07-15,https://issues.apache.org/jira/browse/KAFKA-16923
+KAFKA-16902,Sender ignores socket connection timeout when reconnecting to transaction coordi,Unassigned,Minor,Patch Available,2025-05-05,https://issues.apache.org/jira/browse/KAFKA-16902
+KAFKA-16444,Run KIP-848 unit tests under code coverage,Unassigned,Minor,Reopened,2024-10-16,https://issues.apache.org/jira/browse/KAFKA-16444
+KAFKA-16130,Write a junit test for ZK migration rollback,Unassigned,Major,Reopened,2024-08-28,https://issues.apache.org/jira/browse/KAFKA-16130
+KAFKA-16070,Extract the setReadOnly method into Headers,Unassigned,Major,In Progress,2024-04-03,https://issues.apache.org/jira/browse/KAFKA-16070
+KAFKA-15891,Flaky test: testResetSinkConnectorOffsetsOverriddenConsumerGroupId – org.apache.,Unassigned,Major,In Progress,2025-05-13,https://issues.apache.org/jira/browse/KAFKA-15891
+KAFKA-15376,Explore options of removing data earlier to the current leader's leader epoch li,Unassigned,Major,Reopened,2025-01-09,https://issues.apache.org/jira/browse/KAFKA-15376
+KAFKA-15198,Improve version release scripts,Unassigned,Major,In Progress,2024-09-05,https://issues.apache.org/jira/browse/KAFKA-15198
+KAFKA-15075,MM2 internal checkpoints topic should support multiple partitions,Unassigned,Major,In Progress,2024-08-30,https://issues.apache.org/jira/browse/KAFKA-15075
+KAFKA-15057,Use new interface ZstdBufferDecompressingStreamNoFinalizer from zstd-jni,Unassigned,Major,Patch Available,2025-01-07,https://issues.apache.org/jira/browse/KAFKA-15057
+KAFKA-14956,Flaky test org.apache.kafka.connect.integration.OffsetsApiIntegrationTest#testGe,Unassigned,Major,Reopened,2024-06-30,https://issues.apache.org/jira/browse/KAFKA-14956
+KAFKA-14908,"Sporadic ""Address already in use"" when starting kafka cluster embedded within te",Unassigned,Major,Reopened,2025-10-15,https://issues.apache.org/jira/browse/KAFKA-14908
+KAFKA-14858,Standalone herder does not handle exceptions thrown from connector taskConfigs m,Unassigned,Major,Patch Available,2024-06-30,https://issues.apache.org/jira/browse/KAFKA-14858
+KAFKA-14598,Fix flaky ConnectRestApiTest,Unassigned,Minor,Reopened,2023-12-06,https://issues.apache.org/jira/browse/KAFKA-14598
+KAFKA-14492,Extract a method to create LogManager; in order to be overrided by subclass of K,Unassigned,Minor,Patch Available,2024-12-27,https://issues.apache.org/jira/browse/KAFKA-14492
+KAFKA-14371,quorum-state file contains empty/unused clusterId field,Unassigned,Minor,Reopened,2023-03-07,https://issues.apache.org/jira/browse/KAFKA-14371
+KAFKA-14336,Reduce allocations from MetadataResponse#convertToNodeArray,Unassigned,Minor,Patch Available,2024-08-19,https://issues.apache.org/jira/browse/KAFKA-14336
+KAFKA-14318,KIP-878: Autoscaling for Statically Partitioned Streams,Unassigned,Major,Reopened,2023-04-14,https://issues.apache.org/jira/browse/KAFKA-14318
+KAFKA-14165,ConfigTransformer.DEFAULT_PATTERN fails on Windows platform,Unassigned,Major,In Progress,2022-09-05,https://issues.apache.org/jira/browse/KAFKA-14165
+KAFKA-14081,Cannot get my MetricsReporter implementation to receive meaningful metrics,Unassigned,Minor,Patch Available,2025-01-27,https://issues.apache.org/jira/browse/KAFKA-14081
+KAFKA-13688,Incorrect metrics in KafkaController for replicasToDeleteCount and ineligibleRep,Unassigned,Major,Patch Available,2023-07-14,https://issues.apache.org/jira/browse/KAFKA-13688
+KAFKA-13508,"Introduction of ""-head"" flag for describe tool for broker",Unassigned,Minor,In Progress,2024-06-25,https://issues.apache.org/jira/browse/KAFKA-13508
+KAFKA-13501,Avoid state restore via rebalance if standbys are enabled,Unassigned,Major,Patch Available,2024-07-25,https://issues.apache.org/jira/browse/KAFKA-13501
+KAFKA-13421,Fix ConsumerBounceTest#testRollingBrokerRestartsWithSmallerMaxGroupSizeConfigDis,Unassigned,Major,Reopened,2025-12-10,https://issues.apache.org/jira/browse/KAFKA-13421
+KAFKA-13411,Exception while connecting from kafka client consumer producers deployed in a wi,Unassigned,Major,Patch Available,2025-01-25,https://issues.apache.org/jira/browse/KAFKA-13411
+KAFKA-13244,Control Which Brokers Host Partitions of Newly Created Topics,Unassigned,Minor,Patch Available,2024-12-24,https://issues.apache.org/jira/browse/KAFKA-13244
+KAFKA-13152,"Replace ""buffered.records.per.partition"" & ""cache.max.bytes.buffering"" with ""{st",Unassigned,Major,Patch Available,2026-04-14,https://issues.apache.org/jira/browse/KAFKA-13152
+KAFKA-12811,kafka-topics.sh should let the user know they cannot adjust the replication fact,Unassigned,Trivial,Patch Available,2025-01-02,https://issues.apache.org/jira/browse/KAFKA-12811
+KAFKA-12693,Consecutive rebalances with zombie instances may cause corrupted changelogs,Unassigned,Major,In Progress,2025-01-02,https://issues.apache.org/jira/browse/KAFKA-12693
+KAFKA-12481,Add socket.nagle.disable config to reduce number of packets ,Unassigned,Major,Patch Available,2025-02-03,https://issues.apache.org/jira/browse/KAFKA-12481
+KAFKA-12416,Group Coordinator followers are failing with OffsetsOutOfOrderException,Unassigned,Major,Reopened,2021-03-05,https://issues.apache.org/jira/browse/KAFKA-12416
+KAFKA-10886,Kafka crashed in windows environment2,Unassigned,Critical,Patch Available,2021-05-27,https://issues.apache.org/jira/browse/KAFKA-10886
+KAFKA-10873,"Inaccurate ""Ignoring stop request for unowned connector"" log messages",Unassigned,Major,Reopened,2023-11-19,https://issues.apache.org/jira/browse/KAFKA-10873
+KAFKA-10640,Connect Cast and ReplaceField transforms only support top-level fields and Cast ,Unassigned,Major,Patch Available,2025-05-06,https://issues.apache.org/jira/browse/KAFKA-10640
+KAFKA-10635,Streams application fails with OutOfOrderSequenceException after rolling restart,Unassigned,Blocker,Patch Available,2025-01-27,https://issues.apache.org/jira/browse/KAFKA-10635
+KAFKA-10370,WorkerSinkTask: IllegalStateException cased by consumer.seek(tp; offsets) when (,Unassigned,Major,Reopened,2024-07-05,https://issues.apache.org/jira/browse/KAFKA-10370
+KAFKA-10368,Rack aware assignment results not balanced,Unassigned,Major,Patch Available,2020-08-06,https://issues.apache.org/jira/browse/KAFKA-10368
+KAFKA-10140,Incremental config api excludes plugin config changes,Unassigned,Critical,Reopened,2024-01-24,https://issues.apache.org/jira/browse/KAFKA-10140
+KAFKA-9962,Admin client throws UnsupportedVersion exception when talking to old broker,Unassigned,Critical,In Progress,2020-06-03,https://issues.apache.org/jira/browse/KAFKA-9962
+KAFKA-9953,support multiple consumerGroupCoordinators in TransactionManager,Unassigned,Major,Patch Available,2024-12-24,https://issues.apache.org/jira/browse/KAFKA-9953
+KAFKA-9585,Flaky Test: LagFetchIntegrationTest#shouldFetchLagsDuringRebalancingWithOptimiza,Unassigned,Major,Reopened,2026-04-07,https://issues.apache.org/jira/browse/KAFKA-9585
+KAFKA-9458,Kafka crashed in windows environment,Unassigned,Critical,Patch Available,2024-12-24,https://issues.apache.org/jira/browse/KAFKA-9458
+KAFKA-9323,Refactor Streams'  upgrade system tests,Unassigned,Major,Reopened,2024-10-22,https://issues.apache.org/jira/browse/KAFKA-9323
+KAFKA-9278,Avoid using static instance of DisconnectException,Unassigned,Major,Patch Available,2025-01-12,https://issues.apache.org/jira/browse/KAFKA-9278
+KAFKA-9187,kafka.api.SaslGssapiSslEndToEndAuthorizationTest.testNoDescribeProduceOrConsumeW,Unassigned,Major,Reopened,2020-04-14,https://issues.apache.org/jira/browse/KAFKA-9187
+KAFKA-9149,Avoid temp byte array creation when use ByteBufferSerializer,Unassigned,Major,Patch Available,2024-12-23,https://issues.apache.org/jira/browse/KAFKA-9149
+KAFKA-8946,Single byte header issues WARN logging,Unassigned,Minor,Patch Available,2025-01-01,https://issues.apache.org/jira/browse/KAFKA-8946
+KAFKA-8931,PR '#6850' fix issue 'KAFKA-8449'; but lead to restart all cached tasks; which c,Unassigned,Blocker,Patch Available,2024-12-23,https://issues.apache.org/jira/browse/KAFKA-8931
+KAFKA-8812,Rebalance Producers,Unassigned,Major,Reopened,2024-06-27,https://issues.apache.org/jira/browse/KAFKA-8812
+KAFKA-8529,Flaky test ConsumerBounceTest#testCloseDuringRebalance,Unassigned,Major,Reopened,2023-08-01,https://issues.apache.org/jira/browse/KAFKA-8529
+KAFKA-8197,Flaky Test kafka.server.DynamicBrokerConfigTest > testPasswordConfigEncoderSecre,Unassigned,Major,Reopened,2021-10-21,https://issues.apache.org/jira/browse/KAFKA-8197
+KAFKA-8172,FileSystemException: The process cannot access the file because it is being used,Unassigned,Major,Patch Available,2024-12-22,https://issues.apache.org/jira/browse/KAFKA-8172
+KAFKA-7996,KafkaStreams does not pass timeout when closing Clients,Unassigned,Major,Reopened,2024-06-25,https://issues.apache.org/jira/browse/KAFKA-7996
+KAFKA-7839,CLASSPATH with single component containing globs breaks kafka-run-class.sh,Unassigned,Major,Patch Available,2023-12-11,https://issues.apache.org/jira/browse/KAFKA-7839
+KAFKA-6988,Kafka windows classpath too long,Unassigned,Major,Patch Available,2024-12-22,https://issues.apache.org/jira/browse/KAFKA-6988
+KAFKA-6962,DescribeConfigsRequest Schema documentation is wrong/missing detail,Unassigned,Minor,Patch Available,2019-11-20,https://issues.apache.org/jira/browse/KAFKA-6962
+KAFKA-6900,Add thenCompose to KafkaFuture,Unassigned,Minor,Patch Available,2018-06-03,https://issues.apache.org/jira/browse/KAFKA-6900
+KAFKA-6864,null is not passed to keyDeserialzer and valueDeserializer in Fetcher,Unassigned,Major,Patch Available,2024-12-17,https://issues.apache.org/jira/browse/KAFKA-6864
+KAFKA-6448,"Mx4jLoader#props.getBoolean(""kafka_mx4jenable""; false) conflict with the annotat",Unassigned,Minor,Patch Available,2024-12-22,https://issues.apache.org/jira/browse/KAFKA-6448
+KAFKA-6419,Menu order in Streams docs incorrect,Unassigned,Minor,In Progress,2022-02-14,https://issues.apache.org/jira/browse/KAFKA-6419
+KAFKA-6332,Kafka system tests should use nc instead of log grep to detect start-up,Unassigned,Major,In Progress,2024-11-20,https://issues.apache.org/jira/browse/KAFKA-6332
+KAFKA-6293,Support for Avro formatter in ConsoleConsumer With Confluent Schema Registry,Unassigned,Major,Patch Available,2018-09-15,https://issues.apache.org/jira/browse/KAFKA-6293
+KAFKA-6281,Kafka JavaAPI Producer failed with NotLeaderForPartitionException,Unassigned,Major,Reopened,2018-07-19,https://issues.apache.org/jira/browse/KAFKA-6281
+KAFKA-5929,Save pre-assignment to file to avoid too long text to display when do topic part,Unassigned,Minor,Patch Available,2019-04-23,https://issues.apache.org/jira/browse/KAFKA-5929
+KAFKA-5705,"Kafka Server start failed and reports ""unsafe memory access operation""",Unassigned,Major,Reopened,2017-08-08,https://issues.apache.org/jira/browse/KAFKA-5705
+KAFKA-5676,MockStreamsMetrics should be in o.a.k.test,Unassigned,Major,In Progress,2021-06-01,https://issues.apache.org/jira/browse/KAFKA-5676
+KAFKA-5326,Log offset index  resize cause empty  index file,Unassigned,Major,Patch Available,2024-10-14,https://issues.apache.org/jira/browse/KAFKA-5326
+KAFKA-5018,LogCleaner tests to verify behaviour of message format v2,Unassigned,Major,Reopened,2019-02-17,https://issues.apache.org/jira/browse/KAFKA-5018
+KAFKA-4999,Add convenience overload for seek* methods,Unassigned,Major,Patch Available,2023-01-15,https://issues.apache.org/jira/browse/KAFKA-4999
+KAFKA-4852,ByteBufferSerializer not compatible with offsets,Unassigned,Minor,Reopened,2025-01-09,https://issues.apache.org/jira/browse/KAFKA-4852
+KAFKA-4790,Kafka cannot recover after a disk full,Unassigned,Major,Reopened,2019-07-19,https://issues.apache.org/jira/browse/KAFKA-4790
+KAFKA-4615,AdminClient.send function poll without timeout,Unassigned,Major,Patch Available,2018-11-29,https://issues.apache.org/jira/browse/KAFKA-4615
+KAFKA-4273,Streams DSL - Add TTL / retention period support for intermediate topics and sta,Unassigned,Major,Reopened,2025-02-02,https://issues.apache.org/jira/browse/KAFKA-4273
+KAFKA-4212,Add a key-value store that is a TTL persistent cache,Unassigned,Major,Reopened,2025-10-06,https://issues.apache.org/jira/browse/KAFKA-4212
+KAFKA-3917,Some __consumer_offsets replicas grow way too big,Unassigned,Major,Reopened,2019-08-17,https://issues.apache.org/jira/browse/KAFKA-3917
+KAFKA-3729, Auto-configure non-default SerDes passed alongside the topology builder,Unassigned,Major,Reopened,2019-11-25,https://issues.apache.org/jira/browse/KAFKA-3729
+KAFKA-3704,Improve mechanism for compression stream block size selection in KafkaProducer,Unassigned,Major,Reopened,2018-07-19,https://issues.apache.org/jira/browse/KAFKA-3704
+KAFKA-3663,Proposal for a kafka broker command - kafka-brokers.sh,Unassigned,Major,Patch Available,2024-02-20,https://issues.apache.org/jira/browse/KAFKA-3663
+KAFKA-3539,KafkaProducer.send() may block even though it returns the Future,Unassigned,Critical,In Progress,2021-10-18,https://issues.apache.org/jira/browse/KAFKA-3539
+KAFKA-3428,Remove metadata sync bottleneck from mirrormaker's producer,Unassigned,Major,Patch Available,2022-02-09,https://issues.apache.org/jira/browse/KAFKA-3428
+KAFKA-3362,Update protocol schema and field doc strings,Unassigned,Major,In Progress,2018-11-30,https://issues.apache.org/jira/browse/KAFKA-3362
+KAFKA-3246,Transient Failure in kafka.producer.SyncProducerTest.testProduceCorrectlyReceive,Unassigned,Critical,Reopened,2019-03-01,https://issues.apache.org/jira/browse/KAFKA-3246
+KAFKA-2888,Allow ConsoleConsumer to print a status update on some interval,Unassigned,Minor,Patch Available,2015-12-06,https://issues.apache.org/jira/browse/KAFKA-2888
+KAFKA-2787,Refactor gradle build,Unassigned,Minor,In Progress,2021-07-13,https://issues.apache.org/jira/browse/KAFKA-2787
+KAFKA-2620,Introduce Scalariform,Unassigned,Major,Patch Available,2024-03-14,https://issues.apache.org/jira/browse/KAFKA-2620
+KAFKA-2588,ReplicaManager partitionCount metric should actually be replicaCount,Unassigned,Major,Patch Available,2024-03-14,https://issues.apache.org/jira/browse/KAFKA-2588
+KAFKA-2319,After controlled shutdown: IllegalStateException: Kafka scheduler has not been s,Unassigned,Major,Reopened,2018-07-19,https://issues.apache.org/jira/browse/KAFKA-2319
+KAFKA-2178,Loss of highwatermarks on incorrect cluster shutdown/restart,Unassigned,Major,In Progress,2018-08-03,https://issues.apache.org/jira/browse/KAFKA-2178
+KAFKA-1907,ZkClient can block controlled shutdown indefinitely,Unassigned,Major,Patch Available,2024-09-27,https://issues.apache.org/jira/browse/KAFKA-1907
+KAFKA-1853,Unsuccessful suffix rename of expired LogSegment can leak open files and also le,Unassigned,Major,Patch Available,2024-09-27,https://issues.apache.org/jira/browse/KAFKA-1853
+KAFKA-1694,KIP-4: Command line and centralized operations,Unassigned,Critical,In Progress,2021-07-13,https://issues.apache.org/jira/browse/KAFKA-1694
+KAFKA-517,Ensure that we escape the metric names if they include user strings,Unassigned,Major,Reopened,2018-08-03,https://issues.apache.org/jira/browse/KAFKA-517

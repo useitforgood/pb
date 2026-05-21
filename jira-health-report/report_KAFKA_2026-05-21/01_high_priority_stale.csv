@@ -1,0 +1,51 @@
+key,summary,assignee,priority,status,last_updated,url
+KAFKA-19895,__consumer_offsets Partitions Growing to TB Size and Not Cle,Unassigned,Critical,Open,2025-11-19,https://issues.apache.org/jira/browse/KAFKA-19895
+KAFKA-19885,Explicity define either execution or dry-run when altering,Chia-Ping Tsai,Blocker,Open,2025-11-13,https://issues.apache.org/jira/browse/KAFKA-19885
+KAFKA-19677,Flaky Test org.apache.kafka.streams.integration.SmokeTestDri,Unassigned,Critical,Open,2025-09-05,https://issues.apache.org/jira/browse/KAFKA-19677
+KAFKA-19633,Kafka Connect connectors sent out zombie records during reba,Unassigned,Critical,Open,2025-08-21,https://issues.apache.org/jira/browse/KAFKA-19633
+KAFKA-19622,Limitations of KRAFT Dual Write Mode for Production Support,Unassigned,Critical,Open,2025-08-30,https://issues.apache.org/jira/browse/KAFKA-19622
+KAFKA-19586,Kafka broker freezes and gets fenced during rolling restart,Unassigned,Blocker,Open,2025-08-17,https://issues.apache.org/jira/browse/KAFKA-19586
+KAFKA-19557,Remove BrokerNotFoundException,Unassigned,Blocker,Open,2025-11-05,https://issues.apache.org/jira/browse/KAFKA-19557
+KAFKA-19552,Unclean leader election fails due to precedence issue,Unassigned,Critical,Open,2025-07-28,https://issues.apache.org/jira/browse/KAFKA-19552
+KAFKA-19438,Request for Assistance: FileSystemException Errors on Kafka,Unassigned,Critical,Open,2025-06-28,https://issues.apache.org/jira/browse/KAFKA-19438
+KAFKA-19329,Dynamic Connect Worker Configuration,Kunal Sevkani,Critical,Open,2025-05-25,https://issues.apache.org/jira/browse/KAFKA-19329
+KAFKA-19142,TestKitNodes doesn't bootstrap KIP-853 correctly,PoAn Yang,Critical,Open,2025-04-14,https://issues.apache.org/jira/browse/KAFKA-19142
+KAFKA-19059,When KafkaClient 3.5.0 is used and attempts to connect to an,Unassigned,Critical,Open,2025-03-31,https://issues.apache.org/jira/browse/KAFKA-19059
+KAFKA-18898,4.0 Upgrade docs rendering below other versions,Unassigned,Critical,Open,2025-02-28,https://issues.apache.org/jira/browse/KAFKA-18898
+KAFKA-18885,document behavioral differences between ZooKeeper and KRaft,Chia-Ping Tsai,Blocker,Open,2025-02-27,https://issues.apache.org/jira/browse/KAFKA-18885
+KAFKA-18871,KRaft migration rollback causes downtime,Unassigned,Critical,Open,2025-04-17,https://issues.apache.org/jira/browse/KAFKA-18871
+KAFKA-18762,'Acks=all' not working correctly in Kafka Kraft mode,Unassigned,Critical,Open,2025-02-10,https://issues.apache.org/jira/browse/KAFKA-18762
+KAFKA-18744,When I add sasl.login.callback.handler.class it is used for,Unassigned,Critical,Open,2026-01-20,https://issues.apache.org/jira/browse/KAFKA-18744
+KAFKA-18726,Support for root cause exception as a nested exception to Ti,Vineet Kumar,Blocker,Open,2025-02-04,https://issues.apache.org/jira/browse/KAFKA-18726
+KAFKA-18602,Incorrect FinalizedVersionLevel reported for dynamic KRaft q,PoAn Yang,Critical,In Progress,2025-04-10,https://issues.apache.org/jira/browse/KAFKA-18602
+KAFKA-18495,Remove Invalid numberOfOpenFiles Metric from RocksDB Stats,Unassigned,Blocker,Open,2025-06-15,https://issues.apache.org/jira/browse/KAFKA-18495
+KAFKA-18393,Remove code deprecated to implement KIP-1043,Andrew Schofield,Blocker,Open,2025-02-26,https://issues.apache.org/jira/browse/KAFKA-18393
+KAFKA-17886,BrokerLifecycleManagerTest testAlwaysSendsAccumulatedOffline,Unassigned,Critical,Open,2024-10-28,https://issues.apache.org/jira/browse/KAFKA-17886
+KAFKA-17859,Bug when Kafka Producer Initializes Message Publishing,Unassigned,Critical,Open,2024-10-23,https://issues.apache.org/jira/browse/KAFKA-17859
+KAFKA-17784,Mirror Maker2 Pod CrashLoopbackOff,Unassigned,Blocker,Open,2024-10-25,https://issues.apache.org/jira/browse/KAFKA-17784
+KAFKA-17660,Kafka not able to import partitioned data,Unassigned,Critical,Open,2024-12-09,https://issues.apache.org/jira/browse/KAFKA-17660
+KAFKA-17590,ReplicaFetcher throw CorruptRecordException,Unassigned,Blocker,Open,2024-09-26,https://issues.apache.org/jira/browse/KAFKA-17590
+KAFKA-17582,Unpredictable consumer position after transaction abort,Unassigned,Critical,Open,2024-09-30,https://issues.apache.org/jira/browse/KAFKA-17582
+KAFKA-17551,Remove ForeachProcessor,Unassigned,Blocker,Open,2025-02-11,https://issues.apache.org/jira/browse/KAFKA-17551
+KAFKA-17547,Write large number of mirror maker logs when Kafka crashes,Unassigned,Blocker,Open,2024-09-26,https://issues.apache.org/jira/browse/KAFKA-17547
+KAFKA-17538,Make deprecated *_DOC variable private or package-private,Unassigned,Blocker,Open,2025-07-28,https://issues.apache.org/jira/browse/KAFKA-17538
+KAFKA-17537,Remove deprecates methods from Joined class,Unassigned,Blocker,Open,2025-07-28,https://issues.apache.org/jira/browse/KAFKA-17537
+KAFKA-17531,Remove deprecated methods JoinWindows of and grace,Unassigned,Blocker,Open,2025-02-11,https://issues.apache.org/jira/browse/KAFKA-17531
+KAFKA-17462,Removes intermediateTopicsOption from StreamsResetter,Unassigned,Blocker,Open,2025-02-11,https://issues.apache.org/jira/browse/KAFKA-17462
+KAFKA-17345,X,Unassigned,Critical,Open,2025-02-04,https://issues.apache.org/jira/browse/KAFKA-17345
+KAFKA-17321,Kafka 1.1.1 consumer cannot get any topic-partition,Unassigned,Critical,Open,2024-08-19,https://issues.apache.org/jira/browse/KAFKA-17321
+KAFKA-17280,Remove deprecated methods from DeserializationExceptionHandl,Unassigned,Blocker,Open,2025-07-28,https://issues.apache.org/jira/browse/KAFKA-17280
+KAFKA-17158,Method cleanupLogs can not delete old logSegements after ini,Unassigned,Critical,Open,2024-07-18,https://issues.apache.org/jira/browse/KAFKA-17158
+KAFKA-17146,ZK to KRAFT migration stuck in pre-migration mode,Unassigned,Blocker,Open,2025-12-17,https://issues.apache.org/jira/browse/KAFKA-17146
+KAFKA-16835,Add Support for consumer to read in commit order,Unassigned,Critical,Open,2024-05-29,https://issues.apache.org/jira/browse/KAFKA-16835
+KAFKA-16808,Consumer join Group response contains 2 different members,Unassigned,Critical,Open,2024-05-21,https://issues.apache.org/jira/browse/KAFKA-16808
+KAFKA-16788,Resource leakage due to absence of close() call on connector,Ashok,Critical,Open,2025-02-05,https://issues.apache.org/jira/browse/KAFKA-16788
+KAFKA-16710,Continuously makeFollower may cause the replica fetcher thr,hudeqi,Blocker,Patch Available,2025-08-15,https://issues.apache.org/jira/browse/KAFKA-16710
+KAFKA-16693,Kafka Users are created with ACL entries during performing,Unassigned,Blocker,Open,2024-05-13,https://issues.apache.org/jira/browse/KAFKA-16693
+KAFKA-16430,The group-metadata-manager thread is always in a loading sta,Unassigned,Blocker,Open,2024-04-03,https://issues.apache.org/jira/browse/KAFKA-16430
+KAFKA-16398,mirror-maker2 running into OOM while filtering high volume,Unassigned,Critical,Open,2024-03-25,https://issues.apache.org/jira/browse/KAFKA-16398
+KAFKA-16338,Removed Deprecated configs from StreamsConfig,Unassigned,Blocker,Open,2025-02-11,https://issues.apache.org/jira/browse/KAFKA-16338
+KAFKA-16337,Remove Deprecated APIs of Kafka Streams in 5.0,Unassigned,Blocker,Open,2025-10-16,https://issues.apache.org/jira/browse/KAFKA-16337
+KAFKA-16304,Disk I/O error does not offline log directory while handling,Unassigned,Critical,Open,2024-02-23,https://issues.apache.org/jira/browse/KAFKA-16304
+KAFKA-16241,Kafka Streams hits IllegalStateException trying to recycle a,Unassigned,Critical,Open,2024-02-20,https://issues.apache.org/jira/browse/KAFKA-16241
+KAFKA-16201,Kafka exception org.apache.kafka.common.errors.NotLeaderOrFo,Unassigned,Blocker,Open,2024-01-29,https://issues.apache.org/jira/browse/KAFKA-16201
