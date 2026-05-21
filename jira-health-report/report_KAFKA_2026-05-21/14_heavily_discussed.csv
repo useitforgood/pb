@@ -1,21 +1,16 @@
 key,summary,assignee,priority,status,last_updated,url
-KAFKA-20463,Merging a PR in kafka-site does not update the website,Unassigned,Major,Open,2026-04-28,https://issues.apache.org/jira/browse/KAFKA-20463
-KAFKA-20427,Controllers can't form quorum on restart when hostnames change,Paolo Patierno,Major,Open,2026-04-23,https://issues.apache.org/jira/browse/KAFKA-20427
-KAFKA-20171,Support regular expression topic patterns for streams groups,sanghyeok An,Major,In Progress,2026-04-20,https://issues.apache.org/jira/browse/KAFKA-20171
-KAFKA-20049,kafka-site build depends on hvishwanath/hugo,Unassigned,Major,Open,2026-04-13,https://issues.apache.org/jira/browse/KAFKA-20049
-KAFKA-20035,Prevent data loss during partition expansion by enforcing epoch,Ken Huang,Critical,Open,2026-04-28,https://issues.apache.org/jira/browse/KAFKA-20035
-KAFKA-20000,Optimize retry backoff for CONCURRENT_TRANSACTIONS,Francis Godinho,Major,In Progress,2026-04-09,https://issues.apache.org/jira/browse/KAFKA-20000
-KAFKA-19902,Consumer triggers OFFSET_OUT_OF_RANGE when committed offset invalid,Unassigned,Major,Open,2026-04-20,https://issues.apache.org/jira/browse/KAFKA-19902
-KAFKA-19853,Transaction Failure when StreamThread blocks on StateUpdater,Colt McNealy,Major,Patch Available,2026-05-04,https://issues.apache.org/jira/browse/KAFKA-19853
-KAFKA-19804,Improve heartbeat request manager initial HB interval,Kuan Po Tseng,Major,Open,2026-04-09,https://issues.apache.org/jira/browse/KAFKA-19804
-KAFKA-19785,Two Kafka brokers were not active in 3 node cluster setup,Unassigned,Major,Open,2026-05-20,https://issues.apache.org/jira/browse/KAFKA-19785
-KAFKA-19753,Metrics from FetchMetricsManager containing a topic tag,Unassigned,Minor,Open,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-19753
-KAFKA-19704,Kafka Broker Fails to Start After Upgrade to 4.1.0,Unassigned,Major,Open,2025-09-17,https://issues.apache.org/jira/browse/KAFKA-19704
-KAFKA-19613,Expose consumer CorruptRecordException,Uladzislau Blok,Minor,In Progress,2026-01-15,https://issues.apache.org/jira/browse/KAFKA-19613
-KAFKA-19469,Dead-letter queues for share groups,Andrew Schofield,Major,Open,2026-03-28,https://issues.apache.org/jira/browse/KAFKA-19469
+KAFKA-20000,Optimize retry backoff for CONCURRENT_TRANSACTIONS to improve throughput,Unassigned,Major,In Progress,2026-04-09,https://issues.apache.org/jira/browse/KAFKA-20000
+KAFKA-20035,Prevent data loss during partition expansion by enforcing even distribution,Unassigned,Major,Open,2026-04-28,https://issues.apache.org/jira/browse/KAFKA-20035
+KAFKA-19902,Consumer triggers OFFSET_OUT_OF_RANGE when committed offset is out of range,Unassigned,Major,Open,2026-04-20,https://issues.apache.org/jira/browse/KAFKA-19902
+KAFKA-20171,Support regular expression topic patterns for streams groups,Unassigned,Major,In Progress,2026-04-20,https://issues.apache.org/jira/browse/KAFKA-20171
 KAFKA-19430,Don't fail on RecordCorruptedException,Uladzislau Blok,Major,In Progress,2026-01-30,https://issues.apache.org/jira/browse/KAFKA-19430
-KAFKA-19331,No error handling for leader not appeared in applyLocalFollower,Abhijit,Major,Open,2026-04-25,https://issues.apache.org/jira/browse/KAFKA-19331
-KAFKA-19097,Fix order of arguments to assertEquals,Ksolves India Limited,Minor,In Progress,2025-12-26,https://issues.apache.org/jira/browse/KAFKA-19097
-KAFKA-18871,KRaft migration rollback causes downtime,Unassigned,Critical,Open,2025-04-17,https://issues.apache.org/jira/browse/KAFKA-18871
-KAFKA-18762,Acks=all not working correctly in Kafka Kraft mode,Unassigned,Critical,Open,2025-02-10,https://issues.apache.org/jira/browse/KAFKA-18762
-KAFKA-18697,Migrate suitable classes to records in connect module,Mingdao Yang,Minor,Open,2025-02-09,https://issues.apache.org/jira/browse/KAFKA-18697
+KAFKA-19853,Transaction Failure when StreamThread blocks on StateUpdater,Unassigned,Major,Patch Available,2026-05-04,https://issues.apache.org/jira/browse/KAFKA-19853
+KAFKA-20427,Controllers can't form quorum on restart when hostnames change,Paolo Patierno,Major,Open,2026-04-23,https://issues.apache.org/jira/browse/KAFKA-20427
+KAFKA-19613,Expose consumer CorruptRecordException,Uladzislau Blok,Minor,In Progress,2026-01-15,https://issues.apache.org/jira/browse/KAFKA-19613
+KAFKA-20049,kafka-site build depends on hvishwanath/hugo,Unassigned,Major,Open,2026-04-13,https://issues.apache.org/jira/browse/KAFKA-20049
+KAFKA-19753,Metrics from FetchMetricsManager containing a topic tag are wrong,Unassigned,Major,Open,2026-05-15,https://issues.apache.org/jira/browse/KAFKA-19753
+KAFKA-19704,Kafka Broker Fails to Start After Upgrade to 4.1.0 Due to Invalid Metric,Unassigned,Major,Open,2025-09-17,https://issues.apache.org/jira/browse/KAFKA-19704
+KAFKA-20463,Merging a PR in kafka-site does not update the website,Unassigned,Major,Open,2026-04-28,https://issues.apache.org/jira/browse/KAFKA-20463
+KAFKA-19804,Improve heartbeat request manager initial HB interval,Unassigned,Major,Open,2026-04-09,https://issues.apache.org/jira/browse/KAFKA-19804
+KAFKA-19785,Two Kafka brokers were not active in 3 node cluster setup,Unassigned,Major,Open,2026-05-20,https://issues.apache.org/jira/browse/KAFKA-19785
+KAFKA-19469,Dead-letter queues for share groups,Unassigned,Major,Open,2026-03-28,https://issues.apache.org/jira/browse/KAFKA-19469

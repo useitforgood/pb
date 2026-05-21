@@ -4,18 +4,58 @@ KAFKA-20579,Implement dynamic allocation for compressed data,Lianet Magrans,Majo
 KAFKA-20578,Implement dynamic allocation for uncompressed data,Lianet Magrans,Major,Open,2026-05-13,https://issues.apache.org/jira/browse/KAFKA-20578
 KAFKA-20549,Implementation of Share Group DLQ Manager,Sushant Mahajan,Major,In Progress,2026-05-17,https://issues.apache.org/jira/browse/KAFKA-20549
 KAFKA-20451,Move RequestChannel Responses to server module,Mickael Maison,Major,Open,2026-04-14,https://issues.apache.org/jira/browse/KAFKA-20451
-KAFKA-20422,Add DSL integration tests for header stores,Alieh Saeedi,Major,Patch Available,2026-04-23,https://issues.apache.org/jira/browse/KAFKA-20422
-KAFKA-20400,Enable VersionedKeyValueStoreWithHeaders in DSL,Shekhar Prasad Rajak,Major,Patch Available,2026-04-09,https://issues.apache.org/jira/browse/KAFKA-20400
+KAFKA-20422,Add DSL integration tests for header stores with explicit suppliers ,Alieh Saeedi,Major,Patch Available,2026-04-23,https://issues.apache.org/jira/browse/KAFKA-20422
 KAFKA-20395,Support unregistering controllers,Kevin Wu,Major,Open,2026-05-20,https://issues.apache.org/jira/browse/KAFKA-20395
 KAFKA-20356,Make cluster id in-memory threadsafe,Kevin Wu,Major,Open,2026-03-25,https://issues.apache.org/jira/browse/KAFKA-20356
-KAFKA-20351,metrics leak caused by reducing numRecoveryThreadsPerDataDir,Kuan Po Tseng,Minor,Open,2026-03-24,https://issues.apache.org/jira/browse/KAFKA-20351
-KAFKA-20336,Update docs,Shekhar Prasad Rajak,Blocker,Patch Available,2026-05-12,https://issues.apache.org/jira/browse/KAFKA-20336
-KAFKA-20335,Update docs,Nilesh Kumar,Blocker,Open,2026-05-18,https://issues.apache.org/jira/browse/KAFKA-20335
-KAFKA-20329,Test headers dsl.store.format further,Alieh Saeedi,Major,In Progress,2026-05-01,https://issues.apache.org/jira/browse/KAFKA-20329
+KAFKA-20329,Test `headers` dsl.store.format further,Alieh Saeedi,Major,In Progress,2026-05-01,https://issues.apache.org/jira/browse/KAFKA-20329
 KAFKA-20324,Update docs to reflect relaxed formatting requirements,Kevin Wu,Major,Open,2026-03-17,https://issues.apache.org/jira/browse/KAFKA-20324
 KAFKA-20305,clampDynamicConfigs flag for KafkaConfigs constructor,Sean Quah,Major,Open,2026-03-13,https://issues.apache.org/jira/browse/KAFKA-20305
-KAFKA-20292,Implement assignor offload,Sean Quah,Major,Open,2026-05-18,https://issues.apache.org/jira/browse/KAFKA-20292
-KAFKA-20259,Verify IQv1 and IQv2 does not break,Shekhar Prasad Rajak,Major,Patch Available,2026-04-16,https://issues.apache.org/jira/browse/KAFKA-20259
-KAFKA-20233,Add Broker and Controller Registrations to SamplingRequestLogFilter,Kevin Wu,Major,Open,2026-02-26,https://issues.apache.org/jira/browse/KAFKA-20233
+KAFKA-20233,Add Broker + Controller Registrations to SamplingRequestLogFilter ADMIN_APIS,Kevin Wu,Major,Open,2026-02-26,https://issues.apache.org/jira/browse/KAFKA-20233
 KAFKA-20226,Add KRaft layer benchmarks,Kevin Wu,Major,Open,2026-02-25,https://issues.apache.org/jira/browse/KAFKA-20226
 KAFKA-20225,Introduce event scheduler framework in KRaft,José Armando García Sancio,Major,Open,2026-02-25,https://issues.apache.org/jira/browse/KAFKA-20225
+KAFKA-20208,Support updating meta.properties when discovering the ClusterIdRecord,Kevin Wu,Major,Open,2026-02-23,https://issues.apache.org/jira/browse/KAFKA-20208
+KAFKA-20180,Add last-applied-record-latency metric for brokers,Kevin Wu,Major,Open,2026-02-17,https://issues.apache.org/jira/browse/KAFKA-20180
+KAFKA-20176,Add MetaProperties V2,Kevin Wu,Major,Open,2026-04-04,https://issues.apache.org/jira/browse/KAFKA-20176
+KAFKA-20175,Introduce new MetadataVersion for ClusterIdRecord,Kevin Wu,Major,Open,2026-02-11,https://issues.apache.org/jira/browse/KAFKA-20175
+KAFKA-20151,Provide and execution Strategy for adding C4 diagram architecture,Sujay Hegde,Major,Open,2026-02-08,https://issues.apache.org/jira/browse/KAFKA-20151
+KAFKA-20133,Implement TimestampedWindowStoreWithHeaders,Unassigned,Major,Open,2026-02-06,https://issues.apache.org/jira/browse/KAFKA-20133
+KAFKA-19910,Support rack awareness in UniformHeterogeneousAssignmentBuilder,PoAn Yang,Major,In Progress,2025-11-23,https://issues.apache.org/jira/browse/KAFKA-19910
+KAFKA-19908,Support rack awareness in RangeAssignor#assignHeterogeneousGroup,PoAn Yang,Major,Open,2025-11-23,https://issues.apache.org/jira/browse/KAFKA-19908
+KAFKA-19907,Support rack awareness in RangeAssignor#assignHomogeneousGroup,TaiJuWu,Major,Open,2025-11-23,https://issues.apache.org/jira/browse/KAFKA-19907
+KAFKA-19830,Refactor KafkaRaftClient to use event scheduler framework,Kevin Wu,Major,Open,2026-03-13,https://issues.apache.org/jira/browse/KAFKA-19830
+KAFKA-19819,Move BrokerMetadataPublisher to metadata module,Jimmy Wang,Major,Open,2025-10-21,https://issues.apache.org/jira/browse/KAFKA-19819
+KAFKA-19818,Move ClientQuotaMetadataManager to metadata module,Jimmy Wang,Major,Open,2025-10-21,https://issues.apache.org/jira/browse/KAFKA-19818
+KAFKA-19806,Hook to enable / disable multi-partition remote fetch feature,Kamal Chandraprakash,Major,Patch Available,2025-10-21,https://issues.apache.org/jira/browse/KAFKA-19806
+KAFKA-19329,Dynamic Connect Worker Configuration,Kunal Sevkani,Critical,Open,2025-05-25,https://issues.apache.org/jira/browse/KAFKA-19329
+KAFKA-19304,Move KafkaMetricsConfig to server module,Ken Huang,Minor,Open,2025-05-18,https://issues.apache.org/jira/browse/KAFKA-19304
+KAFKA-19292,Introduce soft state for StreamsGroup,Bill Bejeck,Major,Open,2026-02-03,https://issues.apache.org/jira/browse/KAFKA-19292
+KAFKA-19277,Introduce `ConsumerGroupMessageFormatter` for the console-consumer,David Jacot,Major,Open,2025-05-13,https://issues.apache.org/jira/browse/KAFKA-19277
+KAFKA-19175,Test that KafkaRaftClient property handle all of the leader and leader endpoints in RPC responses,José Armando García Sancio,Major,Open,2025-04-18,https://issues.apache.org/jira/browse/KAFKA-19175
+KAFKA-19104,Support metadata version downgrade in Kafka,Colin McCabe,Major,Open,2025-04-07,https://issues.apache.org/jira/browse/KAFKA-19104
+KAFKA-19038,Migrate GroupAssignment to record class,TengYao Chi,Major,Open,2025-03-25,https://issues.apache.org/jira/browse/KAFKA-19038
+KAFKA-19035,Ensure DLQ can be tested using TTD,Unassigned,Major,Open,2025-10-22,https://issues.apache.org/jira/browse/KAFKA-19035
+KAFKA-18998,Move AuthHelper to server module,PoAn Yang,Major,In Progress,2026-05-21,https://issues.apache.org/jira/browse/KAFKA-18998
+KAFKA-18997,Move ConfigHelper to server module,PoAn Yang,Major,Open,2025-04-05,https://issues.apache.org/jira/browse/KAFKA-18997
+KAFKA-18897,Add support for SslEngineFactory,Mingdao Yang,Major,Open,2025-02-27,https://issues.apache.org/jira/browse/KAFKA-18897
+KAFKA-18896,Add support for Login,Ken Huang,Major,Open,2026-03-22,https://issues.apache.org/jira/browse/KAFKA-18896
+KAFKA-18895,Add support for AuthenticateCallbackHandler,Mingdao Yang,Major,Open,2025-02-27,https://issues.apache.org/jira/browse/KAFKA-18895
+KAFKA-18816,Add support for KafkaPrincipalBuilder,Mickael Maison,Major,Open,2025-08-02,https://issues.apache.org/jira/browse/KAFKA-18816
+KAFKA-18707,Move KRaftMetadataCachePublisher to metadata module,PoAn Yang,Major,In Progress,2025-02-04,https://issues.apache.org/jira/browse/KAFKA-18707
+KAFKA-18438,Pre-Vote followups,Unassigned,Major,Open,2025-01-17,https://issues.apache.org/jira/browse/KAFKA-18438
+KAFKA-18208,Refactor TransactionLog logic,Unassigned,Major,Open,2024-12-11,https://issues.apache.org/jira/browse/KAFKA-18208
+KAFKA-17955,Add 3.9 to the releases tested in kafkatest/version.py and related,Unassigned,Major,Open,2024-11-06,https://issues.apache.org/jira/browse/KAFKA-17955
+KAFKA-17700,Override the follower's leader endpoint by preferring BEGIN_QUORUM_EPOCH,José Armando García Sancio,Major,Open,2024-10-03,https://issues.apache.org/jira/browse/KAFKA-17700
+KAFKA-17517,Fix and document the kraft metrics in ops.html,José Armando García Sancio,Major,Open,2024-09-10,https://issues.apache.org/jira/browse/KAFKA-17517
+KAFKA-17440,Convert QuorumTestHarness to use PreboundSocketFactoryManager,Chia-Ping Tsai,Major,Open,2024-08-29,https://issues.apache.org/jira/browse/KAFKA-17440
+KAFKA-16840,Add a --timeout option to ConfigCommand,Unassigned,Minor,Open,2025-01-05,https://issues.apache.org/jira/browse/KAFKA-16840
+KAFKA-16691,Support for nested structures: TimestampConverter,Jorge Esteban Quilcate Otoya,Major,Open,2025-01-05,https://issues.apache.org/jira/browse/KAFKA-16691
+KAFKA-16690,Support for nested structures: HeaderFrom,Jorge Esteban Quilcate Otoya,Major,Open,2024-05-08,https://issues.apache.org/jira/browse/KAFKA-16690
+KAFKA-16469,Metadata Schema Checker,Colin McCabe,Major,Open,2024-09-24,https://issues.apache.org/jira/browse/KAFKA-16469
+KAFKA-16450,Add thread-safe alternative to Exit,Greg Harris,Minor,Patch Available,2025-02-05,https://issues.apache.org/jira/browse/KAFKA-16450
+KAFKA-16444,Run KIP-848 unit tests under code coverage,Unassigned,Minor,Reopened,2024-10-16,https://issues.apache.org/jira/browse/KAFKA-16444
+KAFKA-15812,"Add support to send only sparse metrics, only non-zero values ",Apoorv Mittal,Major,Open,2023-11-13,https://issues.apache.org/jira/browse/KAFKA-15812
+KAFKA-15124,KRaft snapshot freeze should never perform copy,José Armando García Sancio,Major,Open,2023-06-26,https://issues.apache.org/jira/browse/KAFKA-15124
+KAFKA-15060,Fix the ApiVersionManager interface,Unassigned,Major,Open,2023-06-19,https://issues.apache.org/jira/browse/KAFKA-15060
+KAFKA-15043,Create a kcontroller metric for expired broker heartbeats,Unassigned,Major,Open,2023-05-31,https://issues.apache.org/jira/browse/KAFKA-15043
+KAFKA-14990,Dynamic producer ID expiration is not applied on broker restart,David Mao,Major,Open,2023-07-24,https://issues.apache.org/jira/browse/KAFKA-14990
+KAFKA-14370,Properly close ImageWriter objects,Colin McCabe,Major,Open,2024-04-17,https://issues.apache.org/jira/browse/KAFKA-14370

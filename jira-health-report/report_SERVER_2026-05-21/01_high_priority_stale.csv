@@ -1,19 +1,19 @@
 key,summary,assignee,priority,status,last_updated,url
-"SERVER-113876","IDL fuzz test generation","Michael Merrill","Blocker - P1","Needs Verification","2025-11-13","https://jira.mongodb.org/browse/SERVER-113876"
-"SERVER-111587","Histogram CE: Deadlock in getHistogram","Unassigned","Blocker - P1","Backlog","2026-01-22","https://jira.mongodb.org/browse/SERVER-111587"
-"SERVER-111234","Safer feature flag wrappers/helpers for query","Unassigned","Critical - P2","Backlog","2025-10-06","https://jira.mongodb.org/browse/SERVER-111234"
-"SERVER-110957","Investigate whether any fields should be moved between OpDebug and CurOp","Joe Shalabi","Critical - P2","Investigating","2025-10-13","https://jira.mongodb.org/browse/SERVER-110957"
-"SERVER-107286","Investigate ways to keep machine from dying when hitting memory limits","Unassigned","Critical - P2","Backlog","2025-07-09","https://jira.mongodb.org/browse/SERVER-107286"
-"SERVER-106353","consider moving debug split step into the install macros","Unassigned","Critical - P2","Backlog","2026-02-17","https://jira.mongodb.org/browse/SERVER-106353"
-"SERVER-105042","Upgrade to gcc-15","Unassigned","Critical - P2","Open","2026-01-16","https://jira.mongodb.org/browse/SERVER-105042"
-"SERVER-104873","Prevent modifications to copts & linkopts without Build team review","Unassigned","Critical - P2","Backlog","2025-09-29","https://jira.mongodb.org/browse/SERVER-104873"
-"SERVER-87046","Re-enable fle2/txn_sharded.js test in sharding suites with random migrations","Unassigned","Critical - P2","Backlog","2025-10-23","https://jira.mongodb.org/browse/SERVER-87046"
-"SERVER-86863","r7.0.6 included partially backported feature","MongoDB Server Releases","Critical - P2","Needs Scheduling","2024-02-21","https://jira.mongodb.org/browse/SERVER-86863"
-"SERVER-82648","Improve the locking in LogicalTimeValidator::get/set","[DO NOT USE] Backlog - Cluster Scalability","Critical - P2","Open","2024-08-07","https://jira.mongodb.org/browse/SERVER-82648"
-"SERVER-52256","Enable feature flag for Limit plan cache memory consumption","Unassigned","Blocker - P1","Backlog","2025-07-21","https://jira.mongodb.org/browse/SERVER-52256"
-"SERVER-51953","Create feature flag for Limit plan cache memory consumption","Unassigned","Blocker - P1","Backlog","2025-07-21","https://jira.mongodb.org/browse/SERVER-51953"
-"SERVER-27762","creating a view without specifying collation explicitly should insert the collat","[DO NOT USE] Backlog - Query Optimization","Critical - P2","Backlog","2022-12-06","https://jira.mongodb.org/browse/SERVER-27762"
-"SERVER-18375","High CPU during insert-only stress test due to heap contention on Windows","DO NOT USE - Backlog - Platform Team","Critical - P2","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-18375"
-"SERVER-13552","remove unnecessary global lock during replace out action","[DO NOT USE] Backlog - Query Execution","Critical - P2","Backlog","2022-12-06","https://jira.mongodb.org/browse/SERVER-13552"
-"SERVER-9925","Index covered binary prefix search","[DO NOT USE] Backlog - Query Optimization","Critical - P2","Backlog","2022-12-06","https://jira.mongodb.org/browse/SERVER-9925"
-"SERVER-6439","Duplicate fields at the same level should not be allowed","[DO NOT USE] Backlog - Query Execution","Critical - P2","Backlog","2026-02-17","https://jira.mongodb.org/browse/SERVER-6439"
+SERVER-113876,IDL fuzz test generation,Michael Merrill,Blocker - P1,Needs Verification,2025-11-13,https://jira.mongodb.org/browse/SERVER-113876
+SERVER-111587,Histogram CE: Deadlock in getHistogram,Unassigned,Blocker - P1,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-111587
+SERVER-111234,Safer feature flag wrappers/helpers for query,Unassigned,Critical - P2,Backlog,2025-10-06,https://jira.mongodb.org/browse/SERVER-111234
+SERVER-110957,Investigate whether any fields should be moved between OpDebug and CurOp,Joe Shalabi,Critical - P2,Investigating,2025-10-13,https://jira.mongodb.org/browse/SERVER-110957
+SERVER-107286,Investigate ways to keep machine from dying when hitting memory limits,Unassigned,Critical - P2,Backlog,2025-07-09,https://jira.mongodb.org/browse/SERVER-107286
+SERVER-106353,consider moving debug split step into the install macros,Unassigned,Critical - P2,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-106353
+SERVER-105042,Upgrade to gcc-15,Unassigned,Critical - P2,Open,2026-01-16,https://jira.mongodb.org/browse/SERVER-105042
+SERVER-104873,Prevent modifications to copts & linkopts without Build team review,Unassigned,Critical - P2,Backlog,2025-09-29,https://jira.mongodb.org/browse/SERVER-104873
+SERVER-87046,Re-enable fle2/txn_sharded.js test in sharding suites with random migrations,Unassigned,Critical - P2,Backlog,2025-10-23,https://jira.mongodb.org/browse/SERVER-87046
+SERVER-86863,r7.0.6 included partially backported feature,MongoDB Server Releases,Critical - P2,Needs Scheduling,2024-02-21,https://jira.mongodb.org/browse/SERVER-86863
+SERVER-82648,Improve the locking in LogicalTimeValidator::get/set,[DO NOT USE] Backlog - Cluster Scalability,Critical - P2,Open,2024-08-07,https://jira.mongodb.org/browse/SERVER-82648
+SERVER-52256,Enable feature flag for Limit plan cache memory consumption,Unassigned,Blocker - P1,Backlog,2025-07-21,https://jira.mongodb.org/browse/SERVER-52256
+SERVER-51953,Create feature flag for Limit plan cache memory consumption,Unassigned,Blocker - P1,Backlog,2025-07-21,https://jira.mongodb.org/browse/SERVER-51953
+SERVER-27762,creating a view without specifying collation explicitly should insert the collation of the underlying entity,[DO NOT USE] Backlog - Query Optimization,Critical - P2,Backlog,2022-12-06,https://jira.mongodb.org/browse/SERVER-27762
+SERVER-18375,High CPU during insert-only stress test due to heap contention on Windows,DO NOT USE - Backlog - Platform Team,Critical - P2,Open,2020-04-09,https://jira.mongodb.org/browse/SERVER-18375
+SERVER-13552,"remove unnecessary global lock during ""replace"" out action",[DO NOT USE] Backlog - Query Execution,Critical - P2,Backlog,2022-12-06,https://jira.mongodb.org/browse/SERVER-13552
+SERVER-9925,Index covered binary prefix search,[DO NOT USE] Backlog - Query Optimization,Critical - P2,Backlog,2022-12-06,https://jira.mongodb.org/browse/SERVER-9925
+SERVER-6439,Duplicate fields at the same level should not be allowed,[DO NOT USE] Backlog - Query Execution,Critical - P2,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-6439

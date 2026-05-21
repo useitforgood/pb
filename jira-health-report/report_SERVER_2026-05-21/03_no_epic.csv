@@ -1,0 +1,39 @@
+key,summary,assignee,priority,status,last_updated,url
+SERVER-127351,Add OTel Metrics for reshard background operations,Unassigned,Critical - P2,Needs Scheduling,2026-05-21,https://jira.mongodb.org/browse/SERVER-127351
+SERVER-124456,Evaluate completeness of OTel Metric list for query component,Unassigned,Critical - P2,Backlog,2026-04-23,https://jira.mongodb.org/browse/SERVER-124456
+SERVER-124455,Add OTel Metrics for TTL deletes and index builds,Unassigned,Critical - P2,Needs Scheduling,2026-05-21,https://jira.mongodb.org/browse/SERVER-124455
+SERVER-123957,Extra dependencies added to tasks,Sean Lyons,Critical - P2,Blocked,2026-05-19,https://jira.mongodb.org/browse/SERVER-123957
+SERVER-123826,Stack-buffer-overflow in __bid128_from_string when parsing long $numberDecimal field,Billy Donahue,Critical - P2,Open,2026-04-30,https://jira.mongodb.org/browse/SERVER-123826
+SERVER-123421,Add serverStatus/FTDC metrics for slow in-progress operations,Unassigned,Critical - P2,Backlog,2026-04-16,https://jira.mongodb.org/browse/SERVER-123421
+SERVER-122866,Query stats collectionType type is incorrect for view over timeseries,Unassigned,Critical - P2,Backlog,2026-04-02,https://jira.mongodb.org/browse/SERVER-122866
+SERVER-122819,Investigate ways to improve PBT effectiveness in patches,Matt Boros,Critical - P2,Open,2026-03-27,https://jira.mongodb.org/browse/SERVER-122819
+SERVER-122031,Diagnose TCMalloc restartable sequences bug,Mathias Stearn,Blocker - P1,Open,2026-03-18,https://jira.mongodb.org/browse/SERVER-122031
+SERVER-121619,$project silently drops root-level fields after $lookup + $unwind when multiple nested documents contain a type field with different value types,Noopur Gupta,Critical - P2,Waiting For User Input,2026-05-06,https://jira.mongodb.org/browse/SERVER-121619
+SERVER-121397,Update query PBTs to use fast-check 4.6.0,Matt Boros,Critical - P2,Open,2026-03-26,https://jira.mongodb.org/browse/SERVER-121397
+SERVER-121219,Fatal Crash (Signal 11 / Segfault) in pcre2_match_data_free_8 during catastrophic backtracking regex evaluation,Ivan Fefer,Critical - P2,In Progress,2026-04-14,https://jira.mongodb.org/browse/SERVER-121219
+SERVER-118979,Tracking: query work for opcounters as OTel Metrics,Unassigned,Critical - P2,Backlog,2026-05-21,https://jira.mongodb.org/browse/SERVER-118979
+SERVER-116390,Enable query stats by default,Colby Ing,Critical - P2,Backlog,2026-04-01,https://jira.mongodb.org/browse/SERVER-116390
+SERVER-115121,keyExamined and docsExamined shows negative values on mongod logs,Unassigned,Critical - P2,Needs Scheduling,2026-05-14,https://jira.mongodb.org/browse/SERVER-115121
+SERVER-114620,Create a README with guidelines and best practices for writing PBTs,Matt Boros,Critical - P2,Open,2026-03-26,https://jira.mongodb.org/browse/SERVER-114620
+SERVER-113969,Fix findAndModify check on tracked timeseries collection,Unassigned,Critical - P2,Open,2026-04-14,https://jira.mongodb.org/browse/SERVER-113969
+SERVER-112940,Add rawData to query shape,Arun Banala,Critical - P2,In Code Review,2026-04-01,https://jira.mongodb.org/browse/SERVER-112940
+SERVER-111234,Safer feature flag wrappers/helpers for query,Unassigned,Critical - P2,Backlog,2025-10-06,https://jira.mongodb.org/browse/SERVER-111234
+SERVER-110957,Investigate whether any fields should be moved between OpDebug and CurOp,Joe Shalabi,Critical - P2,Investigating,2025-10-13,https://jira.mongodb.org/browse/SERVER-110957
+SERVER-110386,$merge changes field order in some cases on insert,Hewan Kidanemariam,Critical - P2,Needs Scheduling,2026-04-02,https://jira.mongodb.org/browse/SERVER-110386
+SERVER-108894,Expand PBT model to cover all CRUD commands,Unassigned,Critical - P2,Backlog,2026-03-26,https://jira.mongodb.org/browse/SERVER-108894
+SERVER-107353,Create property-based test to assert query results do not include orphan documents,Matt Boros,Critical - P2,Open,2026-03-26,https://jira.mongodb.org/browse/SERVER-107353
+SERVER-107286,Investigate ways to keep machine from dying when hitting memory limits,Unassigned,Critical - P2,Backlog,2025-07-09,https://jira.mongodb.org/browse/SERVER-107286
+SERVER-106353,consider moving debug split step into the install macros,Unassigned,Critical - P2,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-106353
+SERVER-105042,Upgrade to gcc-15,Unassigned,Critical - P2,Open,2026-01-16,https://jira.mongodb.org/browse/SERVER-105042
+SERVER-104873,Prevent modifications to copts & linkopts without Build team review,Unassigned,Critical - P2,Backlog,2025-09-29,https://jira.mongodb.org/browse/SERVER-104873
+SERVER-104707,Create a new fuzzer variant that uses limited number of fields,Unassigned,Critical - P2,Backlog,2026-03-26,https://jira.mongodb.org/browse/SERVER-104707
+SERVER-91404,Randomize property tester in waterfall,Matt Boros,Critical - P2,Backlog,2026-04-06,https://jira.mongodb.org/browse/SERVER-91404
+SERVER-87046,Re-enable fle2/txn_sharded.js test in sharding suites with random migrations,Unassigned,Critical - P2,Backlog,2025-10-23,https://jira.mongodb.org/browse/SERVER-87046
+SERVER-86863,r7.0.6 included partially backported feature,MongoDB Server Releases,Critical - P2,Needs Scheduling,2024-02-21,https://jira.mongodb.org/browse/SERVER-86863
+SERVER-83322,"Compound Wildcard Index bounds reverts to [MinKey, MaxKey] when filter contains fields outside CWI",Vesko Karaganev,Critical - P2,Open,2026-05-15,https://jira.mongodb.org/browse/SERVER-83322
+SERVER-82648,Improve the locking in LogicalTimeValidator::get/set,[DO NOT USE] Backlog - Cluster Scalability,Critical - P2,Open,2024-08-07,https://jira.mongodb.org/browse/SERVER-82648
+SERVER-27762,creating a view without specifying collation explicitly should insert the collation of the underlying entity,[DO NOT USE] Backlog - Query Optimization,Critical - P2,Backlog,2022-12-06,https://jira.mongodb.org/browse/SERVER-27762
+SERVER-18375,High CPU during insert-only stress test due to heap contention on Windows,DO NOT USE - Backlog - Platform Team,Critical - P2,Open,2020-04-09,https://jira.mongodb.org/browse/SERVER-18375
+SERVER-13552,"remove unnecessary global lock during ""replace"" out action",[DO NOT USE] Backlog - Query Execution,Critical - P2,Backlog,2022-12-06,https://jira.mongodb.org/browse/SERVER-13552
+SERVER-9925,Index covered binary prefix search,[DO NOT USE] Backlog - Query Optimization,Critical - P2,Backlog,2022-12-06,https://jira.mongodb.org/browse/SERVER-9925
+SERVER-6439,Duplicate fields at the same level should not be allowed,[DO NOT USE] Backlog - Query Execution,Critical - P2,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-6439

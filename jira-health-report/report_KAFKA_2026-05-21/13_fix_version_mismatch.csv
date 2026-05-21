@@ -1,21 +1,49 @@
-key,summary,assignee,priority,status,last_updated,url
-KAFKA-19438,Request for Assistance: FileSystemException Errors on Kafka,Unassigned,Critical,Open,2025-06-28,https://issues.apache.org/jira/browse/KAFKA-19438
-KAFKA-18233,Mirrormaker 2 All Checkpoint Connector CPC tasks gracefully,Unassigned,Major,Open,2024-12-13,https://issues.apache.org/jira/browse/KAFKA-18233
-KAFKA-17840,Move ReplicationQuotaManager ClientRequestQuotaManager,PoAn Yang,Major,Reopened,2026-03-23,https://issues.apache.org/jira/browse/KAFKA-17840
-KAFKA-17504,Error related to EKU in Kafka version,Unassigned,Major,Open,2024-09-09,https://issues.apache.org/jira/browse/KAFKA-17504
-KAFKA-17490,UpdateMetadataRequest failed because of ClusterAuthorizationE,jirar,Major,Patch Available,2024-09-06,https://issues.apache.org/jira/browse/KAFKA-17490
-KAFKA-17107,Backport of PR-15327,Kartik Goyal,Major,Open,2024-07-10,https://issues.apache.org/jira/browse/KAFKA-17107
-KAFKA-16848,Reverting KRaft migration for Migrating brokers to KRaft,Edgar,Major,Patch Available,2024-09-24,https://issues.apache.org/jira/browse/KAFKA-16848
-KAFKA-16808,Consumer join Group response contains 2 different members,Unassigned,Critical,Open,2024-05-21,https://issues.apache.org/jira/browse/KAFKA-16808
-KAFKA-16699,Have Streams treat InvalidPidMappingException like a ProducerFenced,Walker Carlson,Major,Patch Available,2024-11-20,https://issues.apache.org/jira/browse/KAFKA-16699
-KAFKA-16145,Windows Kafka Shutdown,Unassigned,Major,Open,2024-02-14,https://issues.apache.org/jira/browse/KAFKA-16145
-KAFKA-15369,Allow AdminClient to Talk Directly with the KRaft Controller,Colin McCabe,Major,Reopened,2025-01-07,https://issues.apache.org/jira/browse/KAFKA-15369
-KAFKA-15171,Kafka client poll never notifies when broker is down,Unassigned,Major,Open,2023-07-10,https://issues.apache.org/jira/browse/KAFKA-15171
-KAFKA-14956,Flaky test org.apache.kafka.connect.integration.OffsetsIntegration,Unassigned,Major,Reopened,2024-06-30,https://issues.apache.org/jira/browse/KAFKA-14956
-KAFKA-13960,ERROR Shutdown broker because all log dirs in c:\kafka,Unassigned,Critical,Open,2022-06-04,https://issues.apache.org/jira/browse/KAFKA-13960
-KAFKA-13796,MM2 Topics Exclude/Blacklist not working,Unassigned,Blocker,Open,2022-07-24,https://issues.apache.org/jira/browse/KAFKA-13796
-KAFKA-13594,Vulnerability found in Log4j,Unassigned,Major,Open,2022-01-15,https://issues.apache.org/jira/browse/KAFKA-13594
-KAFKA-13581,Error getting old protocol,Unassigned,Minor,Open,2022-01-18,https://issues.apache.org/jira/browse/KAFKA-13581
-KAFKA-12887,Do not trigger user-customized ExceptionalHandler for RebalanceException,Josep Prat,Major,Reopened,2023-07-05,https://issues.apache.org/jira/browse/KAFKA-12887
-KAFKA-12846,Logic in Consumer Fetch logic,Unassigned,Trivial,Open,2021-05-25,https://issues.apache.org/jira/browse/KAFKA-12846
-KAFKA-12784,ssl kafka failed,Unassigned,Major,Open,2021-05-14,https://issues.apache.org/jira/browse/KAFKA-12784
+key,summary,assignee,priority,status,last_updated,fix_versions,url
+KAFKA-19438,Request for Assistance: FileSystemException Errors on Kafka Log Cleanup in Windows (KRaft and Zookeeper Modes),Unassigned,Critical,Open,2025-06-28,3.3.0,https://issues.apache.org/jira/browse/KAFKA-19438
+KAFKA-18233,Mirrormaker 2 All Checkpoint Connector CPC tasks graceful shutdown fails after which the consumer group offsets are not replicated .,Unassigned,Major,Open,2024-12-13,3.5.1,https://issues.apache.org/jira/browse/KAFKA-18233
+KAFKA-17840,"Move ReplicationQuotaManager, ClientRequestQuotaManager and QuotaFactory to server module",PoAn Yang,Major,Reopened,2026-03-23,4.0.0,https://issues.apache.org/jira/browse/KAFKA-17840
+KAFKA-17504,An error related to EKU(Extended key usage) in Kafka versions beyond 3.3.1,Unassigned,Major,Open,2024-09-09,3.3.1,https://issues.apache.org/jira/browse/KAFKA-17504
+KAFKA-17490,UpdateMetadataRequest failed because of ClusterAuthorizationException,jirar,Major,Patch Available,2024-09-06,2.8.2,https://issues.apache.org/jira/browse/KAFKA-17490
+KAFKA-17107,Backport of PR-15327,Kartik Goyal,Major,Open,2024-07-10,3.6.2,https://issues.apache.org/jira/browse/KAFKA-17107
+KAFKA-16848,"Reverting KRaft migration for ""Migrating brokers to KRaft"" state is wrong",Edgar,Major,Patch Available,2024-09-24,3.7.0,https://issues.apache.org/jira/browse/KAFKA-16848
+KAFKA-16808,Consumer join Group response contains 2 different members,Unassigned,Critical,Open,2024-05-21,2.8.0,https://issues.apache.org/jira/browse/KAFKA-16808
+KAFKA-16699,Have Streams treat InvalidPidMappingException like a ProducerFencedException,Walker Carlson,Major,Patch Available,2024-11-20,3.8.0,https://issues.apache.org/jira/browse/KAFKA-16699
+KAFKA-16145,Windows Kafka Shutdown,Unassigned,Major,Open,2024-02-14,3.6.0,https://issues.apache.org/jira/browse/KAFKA-16145
+KAFKA-15369,Allow AdminClient to Talk Directly with the KRaft Controller Quorum and add Controller Registration,Colin McCabe,Major,Reopened,2025-01-07,3.7.0,https://issues.apache.org/jira/browse/KAFKA-15369
+KAFKA-15171,Kafka client poll never notifies when broker is down.,Unassigned,Major,Open,2023-07-10,3.2.1,https://issues.apache.org/jira/browse/KAFKA-15171
+KAFKA-14956,Flaky test org.apache.kafka.connect.integration.OffsetsApiIntegrationTest#testGetSinkConnectorOffsetsDifferentKafkaClusterTargeted,Unassigned,Major,Reopened,2024-06-30,3.5.0,https://issues.apache.org/jira/browse/KAFKA-14956
+KAFKA-13960,ERROR Shutdown broker because all log dirs in c:\kafka\kafka-logs have failed (kafka.log.LogManager),Unassigned,Critical,Open,2022-06-04,3.1.1,https://issues.apache.org/jira/browse/KAFKA-13960
+KAFKA-13796,MM2 - Topics Exclude/Blacklist not working,Unassigned,Blocker,Open,2022-07-24,3.0.0,https://issues.apache.org/jira/browse/KAFKA-13796
+KAFKA-13594,"In TNPM Wireline Project, vulnerability found in Log4j-1.2.17.jar under KAFKA directory",Unassigned,Major,Open,2022-01-15,2.6.0,https://issues.apache.org/jira/browse/KAFKA-13594
+KAFKA-13581,Error getting old protocol,Unassigned,Minor,Open,2022-01-18,2.5.0,https://issues.apache.org/jira/browse/KAFKA-13581
+KAFKA-12887,Do not trigger user-customized ExceptionalHandler for RTE,Josep Prat,Major,Reopened,2023-07-05,3.1.0,https://issues.apache.org/jira/browse/KAFKA-12887
+KAFKA-12846,why need this logic in Consumer‘s Fetch logic   it should remove?,Unassigned,Trivial,Open,2021-05-25,2.3.0,https://issues.apache.org/jira/browse/KAFKA-12846
+KAFKA-12784,ssl kafka failed,Unassigned,Major,Open,2021-05-14,2.8.0,https://issues.apache.org/jira/browse/KAFKA-12784
+KAFKA-10411,Extra line break in streams processor API documentation,Sanjay Ravikumar,Minor,Patch Available,2020-08-18,2.6.0,https://issues.apache.org/jira/browse/KAFKA-10411
+KAFKA-10159,MirrorSourceConnector don`t work on connect-distributed.sh,Unassigned,Major,Open,2020-07-26,2.4.1,https://issues.apache.org/jira/browse/KAFKA-10159
+KAFKA-10043," Some parameters will be overwritten which was configured in consumer.config where running ""ConsumerPerformance.scala""",Jhen-Yung Hsu,Minor,Reopened,2025-02-23,2.6.0,https://issues.apache.org/jira/browse/KAFKA-10043
+KAFKA-9941,"WorkerSinkTask：When a record triggers a RetriableException and the retry is processed successfully, its offset does not commit.",Unassigned,Major,Open,2024-12-29,2.2.0,https://issues.apache.org/jira/browse/KAFKA-9941
+KAFKA-9836,org.apache.zookeeper.KeeperException$SessionMovedException: KeeperErrorCode = Session moved for /controller_epoch,Unassigned,Critical,Open,2020-11-25,2.3.0,https://issues.apache.org/jira/browse/KAFKA-9836
+KAFKA-9787,The single node  broker is not coming up after unclean shutdown ,Unassigned,Major,Open,2020-04-08,2.3.0,https://issues.apache.org/jira/browse/KAFKA-9787
+KAFKA-9710,Windows kafka-server-start.bat script fails when Kafka is located in path with whitespace ,Unassigned,Major,Open,2025-05-02,2.4.0,https://issues.apache.org/jira/browse/KAFKA-9710
+KAFKA-9332,change how to get joinGroupTimeoutMs,Unassigned,Major,Open,2020-06-16,2.0.0,https://issues.apache.org/jira/browse/KAFKA-9332
+KAFKA-9246,Update Heartbeat timeout when ConsumerCoordinator commit offset,Deng Ziming,Minor,Open,2022-10-24,"2.2.0,2.3.0",https://issues.apache.org/jira/browse/KAFKA-9246
+KAFKA-9217,Partial partition's log-end-offset is zero,Unassigned,Major,Open,2019-11-22,0.10.0.1,https://issues.apache.org/jira/browse/KAFKA-9217
+KAFKA-9187,kafka.api.SaslGssapiSslEndToEndAuthorizationTest.testNoDescribeProduceOrConsumeWithoutTopicDescribeAcl,Unassigned,Major,Reopened,2020-04-14,2.4.0,https://issues.apache.org/jira/browse/KAFKA-9187
+KAFKA-9107,Change input Type of configBackingStore for StandaloneHerder,Unassigned,Trivial,Open,2020-02-11,2.3.1,https://issues.apache.org/jira/browse/KAFKA-9107
+KAFKA-8883,Kafka Consumer continuously echoing INFO messages Seeking to offset 0 for partition,Unassigned,Critical,Open,2019-09-11,2.3.0,https://issues.apache.org/jira/browse/KAFKA-8883
+KAFKA-8619,Allow instances to be passed instead of Classes or Strings for configuration,Unassigned,Major,Open,2019-07-01,2.3.0,https://issues.apache.org/jira/browse/KAFKA-8619
+KAFKA-8328,Kafka smooth expansion,Unassigned,Major,Open,2024-12-22,0.10.2.0,https://issues.apache.org/jira/browse/KAFKA-8328
+KAFKA-8172,FileSystemException: The process cannot access the file because it is being used by another process,Unassigned,Major,Patch Available,2024-12-22,"1.1.1,2.1.1,2.2.0",https://issues.apache.org/jira/browse/KAFKA-8172
+KAFKA-8130,"The consumer is not closed in GetOffsetShell, will exhausted socket channel when  frequent calls",Unassigned,Trivial,Open,2024-12-22,0.10.2.2,https://issues.apache.org/jira/browse/KAFKA-8130
+KAFKA-8105,Release notes page for 1.1.0 not working,Unassigned,Minor,Open,2019-03-14,1.1.0,https://issues.apache.org/jira/browse/KAFKA-8105
+KAFKA-7839,CLASSPATH with single component containing globs breaks kafka-run-class.sh,Unassigned,Major,Patch Available,2023-12-11,0.11.0.3,https://issues.apache.org/jira/browse/KAFKA-7839
+KAFKA-7017,GroupCoordinator response error: Broker: Group coordinator not available,Unassigned,Critical,Open,2018-06-07,1.1.0,https://issues.apache.org/jira/browse/KAFKA-7017
+KAFKA-6856,Consumer Group hung in initialization/bad state,Unassigned,Major,Open,2018-05-03,1.0.0,https://issues.apache.org/jira/browse/KAFKA-6856
+KAFKA-6689,Kafka not release .deleted file.,Unassigned,Critical,Open,2024-04-22,0.10.1.1,https://issues.apache.org/jira/browse/KAFKA-6689
+KAFKA-5148,Add configurable compression block size to the broker,Unassigned,Major,Open,2017-06-02,0.10.2.0,https://issues.apache.org/jira/browse/KAFKA-5148
+KAFKA-4790,Kafka cannot recover after a disk full,Unassigned,Major,Reopened,2019-07-19,0.11.0.0,https://issues.apache.org/jira/browse/KAFKA-4790
+KAFKA-4669,KafkaProducer.flush hangs when NetworkClient.handleCompletedReceives throws exception,Rajini Sivaram,Critical,Reopened,2021-08-19,"0.11.0.1,1.0.0",https://issues.apache.org/jira/browse/KAFKA-4669
+KAFKA-4583,KafkaConsumerTest.testGracefulClose transient failure,Rajini Sivaram,Major,Reopened,2023-11-29,0.10.2.0,https://issues.apache.org/jira/browse/KAFKA-4583
+KAFKA-4262,Intermittent unit test failure ReassignPartitionsClusterTest.shouldExecuteThrottledReassignment,Rajini Sivaram,Major,Reopened,2019-02-22,0.10.1.0,https://issues.apache.org/jira/browse/KAFKA-4262
+KAFKA-3663,Proposal for a kafka broker command - kafka-brokers.sh,Unassigned,Major,Patch Available,2024-02-20,"0.10.2.0,0.11.0.0",https://issues.apache.org/jira/browse/KAFKA-3663

@@ -1,51 +1,201 @@
 key,summary,assignee,priority,status,last_updated,url
-"SERVER-40918","Shard member sometimes backtraces when starting up a sharded cluster with TLS","Timothy Olsen","Major - P3","Open","2020-03-03","https://jira.mongodb.org/browse/SERVER-40918"
-"SERVER-16526","Add db/collectionname validation to shell upgrade checker","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-16526"
-"SERVER-9218","Track Javascript Stats","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-9218"
-"SERVER-2999","Please add progress indicators to operations in the mongo shell","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-2999"
-"SERVER-11041","Index Diagnostic Shell Helper - diag.checkIndexes()","DO NOT USE - Backlog - Platform Team","Minor - P4","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-11041"
-"SERVER-18375","High CPU during insert-only stress test due to heap contention on Windows","DO NOT USE - Backlog - Platform Team","Critical - P2","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-18375"
-"SERVER-9278","Add counter for bad bson docs (from objCheck)","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-9278"
-"SERVER-15904","Inconsistent version output information from different binaries","DO NOT USE - Backlog - Platform Team","Trivial - P5","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-15904"
-"SERVER-15546","Command response ok value is floating point; should be bool or int","DO NOT USE - Backlog - Platform Team","Minor - P4","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-15546"
-"SERVER-9342","BSON storing 32 bit floats","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-9342"
-"SERVER-7101","Commands should error on missing/invalid parameters","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-7101"
-"SERVER-16903","Prevent query to single mongod from hanging during server power failure","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-16903"
-"SERVER-9833","Add coll.indexPagesInRAM shell helper","DO NOT USE - Backlog - Platform Team","Minor - P4","Open","2020-04-09","https://jira.mongodb.org/browse/SERVER-9833"
-"SERVER-47217","Allow to check if a point is within ellipse on sphere","Katya Kamenieva","Major - P3","Open","2022-04-14","https://jira.mongodb.org/browse/SERVER-47217"
-"SERVER-48143","Remove support for 'fsync' flag in writeConcern specifications leftover from mma","Michael Gargiulo","Major - P3","Open","2022-04-14","https://jira.mongodb.org/browse/SERVER-48143"
-"SERVER-4637","E11000 (duplicate key error) should return a list of duplicate keys and _ids in ","Michael Gargiulo","Major - P3","Open","2022-04-14","https://jira.mongodb.org/browse/SERVER-4637"
-"SERVER-18116","NUMA-aware memory allocation","DO NOT USE - Backlog - Platform Team","Major - P3","Open","2022-06-24","https://jira.mongodb.org/browse/SERVER-18116"
-"SERVER-71478","Add method for knowing if we are a primary in ReplicationCoordinator","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-71478"
-"SERVER-71240","Limit Oplog Growth when oplogMinRetentionHours is set","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-71240"
-"SERVER-70862","Certain contexts blanked ban encrypted replacement in range query_analysis","[DO NOT USE] Backlog - Query Optimization","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-70862"
-"SERVER-70312","Allow encrypted comparisons to constants across all numeric types","[DO NOT USE] Backlog - Query Optimization","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-70312"
-"SERVER-69377","Support $elemMatch in query analysis","[DO NOT USE] Backlog - Query Optimization","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-69377"
-"SERVER-54720","Make --system-wiredtiger work again","[DO NOT USE] Backlog - Storage Engines Team","Minor - P4","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-54720"
-"SERVER-68277","Rewrite namespace on timeseries changestreams to buckets collection","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-68277"
-"SERVER-68037","Redacted voting log message only shows partial response","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-68037"
-"SERVER-67883","IDL checker script allowlist can't have same name for different parameters of ne","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67883"
-"SERVER-67675","Create a fuzzer for timeseries changestreams","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67675"
-"SERVER-67674","Internal Events","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67674"
-"SERVER-67673","Additional Sharding DDL","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67673"
-"SERVER-67672","Sharding DDL","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67672"
-"SERVER-67671","DDL events","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67671"
-"SERVER-67670","DDL Index Events","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67670"
-"SERVER-67669","Change event rewrites for measurements","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67669"
-"SERVER-67668","Change event rewrites for metadata","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67668"
-"SERVER-67667","Implement change stream resumability for streams on timeseries collections","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-05","https://jira.mongodb.org/browse/SERVER-67667"
-"SERVER-67524","ExchangeConsumer doesn't propagate doSaveState call to ExchangeProducer","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-67524"
-"SERVER-66569","Allow priority takeover without direct heartbeats from the current primary","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-66569"
-"SERVER-66512","Unify all the sharded change stream JS tests into a single directory","[DO NOT USE] Backlog - Query Execution","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-66512"
-"SERVER-66282","BGHook doesn't stop its background thread after a test failure","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-66282"
-"SERVER-66244","Hinting global index fails with a friendly error message","[DO NOT USE] Backlog - Query Optimization","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-66244"
-"SERVER-66100","BSONObjectTooLarge and Error creating initial sync progress object errors","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-66100"
-"SERVER-66094","Support client-side encrypted fields in collection validator","[DO NOT USE] Backlog - Query Optimization","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-66094"
-"SERVER-66092","Support client-side encrypted fields in index partialFilterExpression","[DO NOT USE] Backlog - Query Optimization","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-66092"
-"SERVER-64751","ApplyOpsCommandInfo::areOpsCrudOnly() considers n ops as crud","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-64751"
-"SERVER-64068","Relax requirement on catchup takeover dry-run","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-64068"
-"SERVER-62193","Improve insert_vector secondary performance","[DO NOT USE] Backlog - Replication Team","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-62193"
-"SERVER-61957","Incorrect check for whether a collection is sharded in cluster_aggregate.cpp","[DO NOT USE] Backlog - Query Execution","Minor - P4","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-61957"
-"SERVER-61863","Improve Dev Experience for shell scripts in Evergreen","Backlog - Server Tooling and Methods (STM)","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-61863"
-"SERVER-61859","Investigate performance penalty of change streams optimizations in shard lite co","[DO NOT USE] Backlog - Query Execution","Minor - P4","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-61859"
-"SERVER-61329","Investigate failure of fixture to start","Backlog - Server Tooling and Methods (STM)","Major - P3","Open","2022-12-06","https://jira.mongodb.org/browse/SERVER-61329"
+SERVER-120021,upgrade c-ares to >= v1.34.0,Unassigned,Major - P3,Open,2026-02-20,https://jira.mongodb.org/browse/SERVER-120021
+SERVER-120014,Remove tests related to system.buckets once 9.0 becomes last LTS,Unassigned,Major - P3,Backlog,2026-02-20,https://jira.mongodb.org/browse/SERVER-120014
+SERVER-119971,Delete makeExecutor functions on PlannerInterface,Unassigned,Major - P3,Open,2026-02-19,https://jira.mongodb.org/browse/SERVER-119971
+SERVER-119965,Consider a custom syntax to reduce --test_arg usage for resmoke tests,Sean Lyons,Major - P3,Backlog,2026-02-19,https://jira.mongodb.org/browse/SERVER-119965
+SERVER-119951,Remove Feature Flag for SPM-4539,Unassigned,Major - P3,Backlog,2026-02-19,https://jira.mongodb.org/browse/SERVER-119951
+SERVER-119908,Use a more robust alternative to git clone for mothra,Sean Lyons,Major - P3,Backlog,2026-02-18,https://jira.mongodb.org/browse/SERVER-119908
+SERVER-119855,[TEST ONLY] Evaluate running check_metadata_consistency_basic.js with balancer,Unassigned,Major - P3,Backlog,2026-02-20,https://jira.mongodb.org/browse/SERVER-119855
+SERVER-119809,Remove task group dependency override,Sean Lyons,Minor - P4,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119809
+SERVER-119788,Implement unittest INFO and CAPTURE,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119788
+SERVER-119786,Unittest output filtering improvements,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119786
+SERVER-119781,Move bzlmod vendored dependencies into a bzlmod subfolder,Andrew Bradshaw,Major - P3,Open,2026-02-19,https://jira.mongodb.org/browse/SERVER-119781
+SERVER-119779,[Test Only] DropSessionsCollection hook is not compatible with checkMetadataConsistency,Unassigned,Major - P3,Backlog,2026-02-20,https://jira.mongodb.org/browse/SERVER-119779
+SERVER-119775,"In gdb python, lookup_type can't see all types",Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119775
+SERVER-119772,ODR violation due to dual inclusion of c-ares library via vendored and Bazel module paths,Daniel Moody,Major - P3,Backlog,2026-02-19,https://jira.mongodb.org/browse/SERVER-119772
+SERVER-119771,Enable feature flag,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119771
+SERVER-119770,Create feature flag,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119770
+SERVER-119712,Allow users to tune clangd resources in VSCode launch script,Zack Winter,Major - P3,Open,2026-02-17,https://jira.mongodb.org/browse/SERVER-119712
+SERVER-119711,[query_tester] setup_repro_env.py script isn't pulling failing test files correctly,Unassigned,Minor - P4,Backlog,2026-02-19,https://jira.mongodb.org/browse/SERVER-119711
+SERVER-119691,Investigate allowing no-op deletes for certain internal collections,Unassigned,Major - P3,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-119691
+SERVER-119681,Rename kUnsetDefaultLastLTSBehavior FCV constant to kUninitialized,Unassigned,Major - P3,Backlog,2026-02-20,https://jira.mongodb.org/browse/SERVER-119681
+SERVER-119678,Consider enabling ShardingTaskExecutorPoolMaxQueueDepth,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119678
+SERVER-119677,Upgrade python for previously downgraded tasks due to missing sqlite3 module,Nicholas Jefferies,Minor - P4,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-119677
+SERVER-119676,Add sqlite3 check to toolchain-builder to ensure the module is built,Nicholas Jefferies,Minor - P4,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-119676
+SERVER-119660,Ensure server_status_with_time_out_cursors.js does not leak cursors,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119660
+SERVER-119631,keysInserted stat incorrect for wildcard indexes when the data contains arrays,Unassigned,Minor - P4,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119631
+SERVER-119626,Audit uses of TestData.pinToSingleMongos in tests,Unassigned,Major - P3,Backlog,2026-02-12,https://jira.mongodb.org/browse/SERVER-119626
+SERVER-119616,Consider using ThreadPool as the execution resource for ShardingTaskExecutor,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119616
+SERVER-119615,Migrate setPreMigrationShardVersionOnRangeDeletionTasks to FCV plugin architecture,Unassigned,Major - P3,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-119615
+SERVER-119598,Time-series snapshot read might not deal with extended-range time correctly,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119598
+SERVER-119583,Some server parameters marked as run-time don't have thread-safe types,Unassigned,Major - P3,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-119583
+SERVER-119581,Remove Feature Flag for SPM-4435,Matt Boros,Major - P3,Backlog,2026-02-16,https://jira.mongodb.org/browse/SERVER-119581
+SERVER-119573,Make simple collation explicit in durable catalog index specifications,Unassigned,Major - P3,Backlog,2026-02-20,https://jira.mongodb.org/browse/SERVER-119573
+SERVER-119537,Make cluster findAndModify namespace validation under auth align with non-esoteric error codes,Unassigned,Major - P3,Backlog,2026-02-12,https://jira.mongodb.org/browse/SERVER-119537
+SERVER-119529,Make iteration of roles in AuthorizationRouterImpl::getUserObject debug-only,Unassigned,Major - P3,Backlog,2026-02-14,https://jira.mongodb.org/browse/SERVER-119529
+SERVER-119519,Migrate removeShardState to FCV plugin architecture,Unassigned,Major - P3,Backlog,2026-02-11,https://jira.mongodb.org/browse/SERVER-119519
+SERVER-119518,Significant slowdown in 'bazel run format' execution time,Zack Winter,Major - P3,Open,2026-02-17,https://jira.mongodb.org/browse/SERVER-119518
+SERVER-119507,Create t2 view for mongos egress networking overload,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119507
+SERVER-119496,Multiversion and Upgrade/Downgrade Testing,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-02-11,https://jira.mongodb.org/browse/SERVER-119496
+SERVER-119495,Documentation Updates,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-02-11,https://jira.mongodb.org/browse/SERVER-119495
+SERVER-119494,Enable feature flag,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-02-11,https://jira.mongodb.org/browse/SERVER-119494
+SERVER-119493,Create feature flag,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-02-11,https://jira.mongodb.org/browse/SERVER-119493
+SERVER-119421,Documentation Updates,Unassigned,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119421
+SERVER-119420,Enable feature flag,Unassigned,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119420
+SERVER-119418,Investigate get_ready_timers in find_max_time_ms reactor overload,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119418
+SERVER-119416,Evaluate pushing logs to separate thread for sharding task executor reactor,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119416
+SERVER-119415,Investigate ShardingTaskExecutorPoolController::updateHost lock contention in find_time_max_ms availability workload,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-119415
+SERVER-119371,Re-evaluate burn-in of jstests/core tests and passthroughs,Unassigned,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119371
+SERVER-119369,Improve pattern used to construct CanonicalQuery objects,Unassigned,Major - P3,Backlog,2026-02-12,https://jira.mongodb.org/browse/SERVER-119369
+SERVER-119358,Assess whether QI should own fts files under src/mongo/db/index/*,Unassigned,Major - P3,Backlog,2026-02-12,https://jira.mongodb.org/browse/SERVER-119358
+SERVER-119345,Multiversion and Upgrade/Downgrade Testing,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119345
+SERVER-119344,Documentation Updates,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119344
+SERVER-119343,Grammar fuzzer changes,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119343
+SERVER-119342,Enable feature flag,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119342
+SERVER-119341,Create feature flag,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-119341
+SERVER-119193,Condition updateStatsAfterRepair() on valid fast count collection,Cedric Sirianni,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-119193
+SERVER-119176,Remove Feature Flag for SPM-4061,[DO NOT USE] Backlog - Cluster Scalability,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-119176
+SERVER-119170,Make hashed shard key index optional upon resharding a collection,Unassigned,Major - P3,Open,2026-02-06,https://jira.mongodb.org/browse/SERVER-119170
+SERVER-119163,Enable the balancer to report errors during balancing activities.,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-119163
+SERVER-119136,Validate the schema of the shard catalog in testing,Unassigned,Major - P3,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-119136
+SERVER-119133,"Remove ""requires_replication"" tag from concurrency_sharded_* suites",Unassigned,Major - P3,Backlog,2026-02-20,https://jira.mongodb.org/browse/SERVER-119133
+SERVER-119105,Expose PathArrayness to boolean simplifier in find(),Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-119105
+SERVER-119082,"Improve interface for reentrant ""remote"" command requests",Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-119082
+SERVER-119080,Improve management of operations generated by long-lived tasks.,Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-119080
+SERVER-119078,"Have a clean interface for ""peer"" cleanup sub-operations",Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-119078
+SERVER-119034,Change code ownership of new get_executor path and runtime planners to QE and QO,Unassigned,Major - P3,Open,2026-02-09,https://jira.mongodb.org/browse/SERVER-119034
+SERVER-119009,Investigate supporting extensions on Windows,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-119009
+SERVER-119008,Track otel metric size in performance testing.,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-119008
+SERVER-118983,Fix jstest search index helpers to work correctly on both primaries and secondaries,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118983
+SERVER-118977,Add support for update commands in PQS,Denis Grebennicov,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-118977
+SERVER-118975,`checkMetadataConsistency` doesn't check moved collections for metadata inconsistencies,Unassigned,Major - P3,Backlog,2026-02-18,https://jira.mongodb.org/browse/SERVER-118975
+SERVER-118970,Cleanup legacy timeseries code from createCollection,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118970
+SERVER-118953,Remove ClusterAggregate::retryOnViewOrIFRKickbackError,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118953
+SERVER-118950,GDB reports missing ELF symbol for a static member,Unassigned,Major - P3,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-118950
+SERVER-118920,Investigate if it is safe to raise CommandNotSupportedOnView on restoring collection acquisitions,Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-118920
+SERVER-118902,Prevent a majority of nodes in a replica set from going into rollback,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118902
+SERVER-118900,Remove CheckSystemBucketsMetrics hook once 9.0 is last LTS,Unassigned,Major - P3,Backlog,2026-02-04,https://jira.mongodb.org/browse/SERVER-118900
+SERVER-118882,Clean up test hooks excluding system.buckets once 9.0 is last LTS,Unassigned,Major - P3,Backlog,2026-02-04,https://jira.mongodb.org/browse/SERVER-118882
+SERVER-118881,Introduce change stream passthrough suites with FCV upgrade/downgrade,Unassigned,Major - P3,Backlog,2026-02-04,https://jira.mongodb.org/browse/SERVER-118881
+SERVER-118872,Enable $listMqlEntities tests in 'with-extensions' variant,Unassigned,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-118872
+SERVER-118836,Ensure bazel shutdown and task completion,Sean Lyons,Minor - P4,Backlog,2026-02-04,https://jira.mongodb.org/browse/SERVER-118836
+SERVER-118826,Avoid using long-living OperationContext for background thread,Unassigned,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118826
+SERVER-118822,Remove double timeseries invalidation,Unassigned,Major - P3,Backlog,2026-02-04,https://jira.mongodb.org/browse/SERVER-118822
+SERVER-118799,Multiversion and Upgrade/Downgrade Testing,[DO NOT USE] Backlog - Catalog and Routing,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118799
+SERVER-118798,Documentation Updates,[DO NOT USE] Backlog - Catalog and Routing,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118798
+SERVER-118789,StaleConfig is currently being handled it 2 different places,Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-118789
+SERVER-118787,worker_thread.js finally clause may use undefined variable ,Unassigned,Trivial - P5,Backlog,2026-02-17,https://jira.mongodb.org/browse/SERVER-118787
+SERVER-118757,Define a consistent way to ensure strict parsing for cluster parameters,Unassigned,Major - P3,Backlog,2026-02-20,https://jira.mongodb.org/browse/SERVER-118757
+SERVER-118755,Implement HTTP rewrite on http://mongodbtoolchain.build.10gen.cc/ to reduce cost,Unassigned,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118755
+SERVER-118743,Update the comment for the applyops insert case,Unassigned,Major - P3,Open,2026-02-09,https://jira.mongodb.org/browse/SERVER-118743
+SERVER-118722,Add coverage for random failures during oplog application and fetching in resharding,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118722
+SERVER-118701,Try turning off compression for Fission Debug symbols,Andrew Bradshaw,Major - P3,Open,2026-02-02,https://jira.mongodb.org/browse/SERVER-118701
+SERVER-118693,Initial sync can crash on a collection with replicated record id being unset,Unassigned,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118693
+SERVER-118690,Investigate fast count collection lookup mechanism,Unassigned,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118690
+SERVER-118686,Fail the task if no suites are run,Sean Lyons,Minor - P4,Backlog,2026-02-02,https://jira.mongodb.org/browse/SERVER-118686
+SERVER-118683,Compile Commands is slow,Unassigned,Major - P3,Backlog,2026-02-02,https://jira.mongodb.org/browse/SERVER-118683
+SERVER-118656,Fatal message on server crash wraps invalid JSON,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118656
+SERVER-118654,Override RNG for FSM transitions when running under Antithesis,Unassigned,Major - P3,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-118654
+SERVER-118652,Investigate prioritizing replication status check over versioning protocol,Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-118652
+SERVER-118646,Remove legacy timeseries test code in list_collections_correctness.js,Unassigned,Major - P3,Backlog,2026-02-02,https://jira.mongodb.org/browse/SERVER-118646
+SERVER-118642,Pull runtiume-settable values out of WiredTigerConfig,Unassigned,Minor - P4,Backlog,2026-02-08,https://jira.mongodb.org/browse/SERVER-118642
+SERVER-118607,Multiversion and Upgrade/Downgrade Testing,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118607
+SERVER-118606,Documentation Updates,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118606
+SERVER-118605,Enable feature flag,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118605
+SERVER-118604,Create feature flag,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118604
+SERVER-118603,Multiversion and Upgrade/Downgrade Testing,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118603
+SERVER-118602,Documentation Updates,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118602
+SERVER-118601,Enable feature flag,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118601
+SERVER-118600,Create feature flag,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118600
+SERVER-118599,Test selection in resmoke causes tests to run twice,Sean Lyons,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118599
+SERVER-118592,Consider moving analyze_shard_key into its own module - outside query,Unassigned,Minor - P4,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118592
+SERVER-118588,Allow WithAutomaticRetry to take RetryStrategy directly,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118588
+SERVER-118587,Remove WithAutomaticRetry error hooks,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118587
+SERVER-118585,Unify CS PrimaryOnlyService retry predicates,Unassigned,Major - P3,Backlog,2026-02-11,https://jira.mongodb.org/browse/SERVER-118585
+SERVER-118583,Remove WithAutomaticRetry::untilRunOn,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118583
+SERVER-118579,Allow extension stages in transactions,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118579
+SERVER-118578,Allow extension stages in queries with non-local read concern,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118578
+SERVER-118572,Add test bsoncolumn memory usage,Unassigned,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118572
+SERVER-118561,Remove 2dsphereIndexVersion3 from timeseries jstests once 9.0 becomes last LTS version,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118561
+SERVER-118552,Generate QueryKnobConfiguration from IDL,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118552
+SERVER-118549,Stepdown-only suites must not skip tests incompatible with node kill,Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-118549
+SERVER-118543,Remove Feature Flag for SPM-4350,[DO NOT USE] Backlog - Query Optimization,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118543
+SERVER-118536,Investigate propagating subpipeline stage constraint failures to error messages,Unassigned,Minor - P4,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-118536
+SERVER-118533,Move chunk operation fails if the migrated session is killed,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118533
+SERVER-118529,Consider error handling for the call to insert a document in ReplicatedFastCountManager::_insertMetadata,Unassigned,Major - P3,Backlog,2026-01-29,https://jira.mongodb.org/browse/SERVER-118529
+SERVER-118512,Increase resharding oplog application integration test coverage,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118512
+SERVER-118503,Extension assertions should include source location,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118503
+SERVER-118493,Reconsider uses of shared pointer to retry strategy in async_rpc and AsyncTry,Unassigned,Major - P3,Backlog,2026-02-03,https://jira.mongodb.org/browse/SERVER-118493
+SERVER-118489,Implement invariants to prevent misuse of retry strategies,Unassigned,Major - P3,Open,2026-02-19,https://jira.mongodb.org/browse/SERVER-118489
+SERVER-118444,gdb 17 regression with split dwarf and compressed debug info in dwo files,Daniel Moody,Major - P3,Open,2026-02-19,https://jira.mongodb.org/browse/SERVER-118444
+SERVER-118443,Support tracked unsharded collections in createSearchIndex test helper,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-118443
+SERVER-118418,Consider if QueryAnalysisSampler should prevent startup after shutdown,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118418
+SERVER-118417,Simplify locking in QueryAnalysisSampler,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-118417
+SERVER-118029,Multiversion and Upgrade/Downgrade Testing,Unassigned,Major - P3,Backlog,2026-01-28,https://jira.mongodb.org/browse/SERVER-118029
+SERVER-118028,Documentation Updates,Unassigned,Major - P3,Backlog,2026-01-28,https://jira.mongodb.org/browse/SERVER-118028
+SERVER-118027,Grammar fuzzer changes,Unassigned,Major - P3,Backlog,2026-01-28,https://jira.mongodb.org/browse/SERVER-118027
+SERVER-118026,Enable feature flag,Unassigned,Major - P3,Backlog,2026-01-28,https://jira.mongodb.org/browse/SERVER-118026
+SERVER-118025,Create feature flag,Unassigned,Major - P3,Backlog,2026-01-28,https://jira.mongodb.org/browse/SERVER-118025
+SERVER-118007,Suites should check their hooks are working before starting executing any test,Trevor Guidry,Major - P3,Backlog,2026-02-04,https://jira.mongodb.org/browse/SERVER-118007
+SERVER-118004,Improve override application on FSM suites,Unassigned,Major - P3,Backlog,2026-02-13,https://jira.mongodb.org/browse/SERVER-118004
+SERVER-117958,Change memory map to a weak ownership for MongoR replay client,Unassigned,Major - P3,Backlog,2026-02-19,https://jira.mongodb.org/browse/SERVER-117958
+SERVER-117929,Refactor Code and Update Comment for applyOps Insert,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-117929
+SERVER-117911,Set higher default value for the number of samples per chunk in SamplingBasedInitialSplitPolicy and define a minimum total number of samples,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-117911
+SERVER-117906,$idLookup could be responsible for apply limit to DistributedPlanLogic,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-117906
+SERVER-117898,Increment 'nInvalidDocuments' for inconsistent time-series bucket documents,Unassigned,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117898
+SERVER-117890,Multiversion and Upgrade/Downgrade Testing,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117890
+SERVER-117889,Documentation Updates,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117889
+SERVER-117888,Enable feature flag,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117888
+SERVER-117887,Create feature flag,[DO NOT USE] Backlog - Query Execution,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117887
+SERVER-117886,Manually update config.metadata_store collection without depending on the query system,Unassigned,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117886
+SERVER-117879,$vectorSearch in $unionWith on a view explain w/executionStats doesn't work,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-117879
+SERVER-117875,Make Otel parameters runtime settable,Unassigned,Major - P3,Backlog,2026-02-02,https://jira.mongodb.org/browse/SERVER-117875
+SERVER-117814,Remove -Wno-inconsistent-missing-override,Unassigned,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117814
+SERVER-117807,Provide estimates for index build size and runtime,Unassigned,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117807
+SERVER-117786,Multiversion and Upgrade/Downgrade Testing,Unassigned,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117786
+SERVER-117785,Documentation Updates,Unassigned,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117785
+SERVER-117784,Enable feature flag,Unassigned,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117784
+SERVER-117780,Autorevert PRs get stuck due to codeowners task failures on unowned files,Trevor Guidry,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117780
+SERVER-117753,Complete TODO listed in SERVER-91143,Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-117753
+SERVER-117747,Multiversion and Upgrade/Downgrade Testing,Unassigned,Major - P3,Backlog,2026-01-23,https://jira.mongodb.org/browse/SERVER-117747
+SERVER-117746,Documentation Updates,Unassigned,Major - P3,Backlog,2026-01-23,https://jira.mongodb.org/browse/SERVER-117746
+SERVER-117745,Grammar fuzzer changes,Unassigned,Major - P3,Backlog,2026-01-23,https://jira.mongodb.org/browse/SERVER-117745
+SERVER-117744,Enable feature flag,Unassigned,Major - P3,Backlog,2026-01-23,https://jira.mongodb.org/browse/SERVER-117744
+SERVER-117743,Create feature flag,Unassigned,Major - P3,Backlog,2026-01-23,https://jira.mongodb.org/browse/SERVER-117743
+SERVER-117737,Hide implementation details of our impl/mock subclasses behind static getters on the base class,Unassigned,Major - P3,Backlog,2026-02-09,https://jira.mongodb.org/browse/SERVER-117737
+SERVER-117700,Improve folder hierachy for upgrade/downgrade code (e.g. setFCV),Unassigned,Major - P3,Backlog,2026-02-06,https://jira.mongodb.org/browse/SERVER-117700
+SERVER-117692,Investigate interactions between index builds and DDL operations on sharded clusters,Unassigned,Major - P3,Backlog,2026-01-23,https://jira.mongodb.org/browse/SERVER-117692
+SERVER-117679,Simplify Toolchain Builder,Unassigned,Major - P3,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-117679
+SERVER-117662,Test extension stages in nested hybrid search stages,Unassigned,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117662
+SERVER-117658,Use PBT sbeFullPushdownEligibleAggModel,Unassigned,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117658
+SERVER-117655,Avoid assigning FieldPath object to *this in constructor,Unassigned,Major - P3,Backlog,2026-01-29,https://jira.mongodb.org/browse/SERVER-117655
+SERVER-117654,Use lastValidTimestamp to recover/combine data in ReplicatedSizeAndCountMetadataManager::_updateMetadata,Unassigned,Major - P3,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-117654
+SERVER-117646,Consider extension stages in view definitions when counting successful/failed aggregations and other commands,Unassigned,Major - P3,Backlog,2026-02-05,https://jira.mongodb.org/browse/SERVER-117646
+SERVER-117619,Remove ExpressionContext from QueryShapeOptsAdapter,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-117619
+SERVER-117604,Avoid ownership burdens for auto-generated resmoke suites ,Unassigned,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117604
+SERVER-117595,Complete TODO listed in SERVER-117385,Philip Stoev,Major - P3,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-117595
+SERVER-117563,Fix metadata dependency validation for source stages in $unionWith sub-pipelines,Unassigned,Major - P3,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-117563
+SERVER-117561,Refactor dbcheck_logs_minkey_maxkey.js,Unassigned,Major - P3,Backlog,2026-01-29,https://jira.mongodb.org/browse/SERVER-117561
+SERVER-117518,tools/bazel prints color ANSI codes,Unassigned,Major - P3,Backlog,2026-01-26,https://jira.mongodb.org/browse/SERVER-117518
+SERVER-117511,Implement replicated fastcount upgrade/downgrade behavior,Unassigned,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-117511
+SERVER-117502,Use optimization helper methods in DocumentSourceVectorSearch,Unassigned,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-117502
+SERVER-117492,Duplicate stages across $unionWith even if unmovable stage exists,Unassigned,Major - P3,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-117492
+SERVER-117477,Remove code related to InterruptedDueToTimeseriesUpgradeDowngrade error,Unassigned,Major - P3,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-117477
+SERVER-117475,Complete TODO listed in SERVER-110366,Zack Winter,Major - P3,Backlog,2026-01-27,https://jira.mongodb.org/browse/SERVER-117475
+SERVER-117427,Add resmoke_suite_test targets for all remaining jstest suites,Sean Lyons,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117427
+SERVER-117424,Add resmoke_tests task to all variants that run jstests,Sean Lyons,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117424
+SERVER-117415,Create feature flag,[DO NOT USE] Backlog - Replication Team,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117415
+SERVER-117414,Enable feature flag,[DO NOT USE] Backlog - Replication Team,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117414
+SERVER-117413,Multiversion and Upgrade/Downgrade Testing,[DO NOT USE] Backlog - Replication Team,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117413
+SERVER-117412,Documentation Updates,[DO NOT USE] Backlog - Replication Team,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117412
+SERVER-117411,Grammar fuzzer changes,[DO NOT USE] Backlog - Replication Team,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117411
+SERVER-117408,Duplicate $limit across $unionWith branch,Unassigned,Major - P3,Backlog,2026-01-22,https://jira.mongodb.org/browse/SERVER-117408
+SERVER-117386,Remove or modify `LOGV2_FOR` macros,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-117386
+SERVER-117377,Reduce coupling between access_control and crypto modules,Unassigned,Major - P3,Backlog,2026-02-02,https://jira.mongodb.org/browse/SERVER-117377
+SERVER-117376,Reduce coupling between fle and crypto modules,Unassigned,Major - P3,Backlog,2026-02-02,https://jira.mongodb.org/browse/SERVER-117376
+SERVER-117333,Cleanup unused includes from splitting query_knobs.idl,Unassigned,Major - P3,Backlog,2026-01-19,https://jira.mongodb.org/browse/SERVER-117333
+SERVER-117297,Move Storage Execution owned commands to subfolders,Unassigned,Major - P3,Backlog,2026-01-20,https://jira.mongodb.org/browse/SERVER-117297
+SERVER-117289,ReplicaSet reconfig does not kill connections made to a removed node,Unassigned,Major - P3,Open,2026-02-02,https://jira.mongodb.org/browse/SERVER-117289
+SERVER-117285,cluster-level setClusterParameter can run indefinitely if one shard fails,Unassigned,Major - P3,Backlog,2026-01-30,https://jira.mongodb.org/browse/SERVER-117285
+SERVER-117284,Support Evergreen test selection for resmoke_suite_test,Sean Lyons,Major - P3,Backlog,2026-01-16,https://jira.mongodb.org/browse/SERVER-117284
+SERVER-117282,Validation on Timeseries collection fails if a document is missing the expected timeField or control block,Unassigned,Major - P3,Backlog,2026-02-10,https://jira.mongodb.org/browse/SERVER-117282

@@ -1,0 +1,7 @@
+key,summary,assignee,priority,status,last_updated,url
+SERVER-110427,Update Profile Data Files,Unassigned,Major - P3,Backlog,2026-05-21,https://jira.mongodb.org/browse/SERVER-110427
+SERVER-58026,Omitted FTDC sections cause frequent schema changes that limit FTDC compression,Unassigned,Major - P3,Backlog,2026-05-14,https://jira.mongodb.org/browse/SERVER-58026
+SERVER-83322,"Compound Wildcard Index bounds reverts to [MinKey, MaxKey]",Unassigned,Major - P3,Open,2026-05-15,https://jira.mongodb.org/browse/SERVER-83322
+SERVER-26665,Clean up WTRecordStore handling of non-oplog capped collections,Unassigned,Minor - P4,Backlog,2026-05-18,https://jira.mongodb.org/browse/SERVER-26665
+SERVER-121912,Upgrade tcmalloc to include rseq bug fix,Unassigned,Major - P3,Open,2026-05-20,https://jira.mongodb.org/browse/SERVER-121912
+SERVER-35035,Additional levels of command debugging,Unassigned,Minor - P4,Backlog,2026-05-13,https://jira.mongodb.org/browse/SERVER-35035
