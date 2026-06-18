@@ -27,7 +27,7 @@ open BeeFun.xcworkspace
 
 ## Architecture
 
-See [docs/architecture.md](docs/architecture.md) for the module breakdown, GitHub API usage, OAuth flow, and Fastlane pipeline.
+See [docs/architecture.md](docs/architecture.md) for the module breakdown, GitHub API usage, BeeFun backend API, OAuth flow, and Fastlane pipeline.
 
 ## Issues
 

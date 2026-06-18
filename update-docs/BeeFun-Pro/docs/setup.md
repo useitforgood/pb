@@ -50,10 +50,10 @@ Keys for unused social platforms can be left empty — the relevant share target
 open BeeFun.xcworkspace
 ```
 
-Select the `BeeFun` scheme and a simulator or device, then press Run (⌘R).
+Select the `BeeFun` scheme and a simulator or device, then press Run (Cmd+R).
 
 Build configurations:
-- `Debug` — development, points to staging if configured
+- `Debug` — development
 - `Release` — production
 
 Xcode 16 note: The `post_install` hook in `Podfile` sets `SWIFT_ENABLE_EXPLICIT_MODULES = NO` globally to prevent build failures in Kanna/libxmlKanna.
@@ -65,8 +65,10 @@ Xcode 16 note: The `post_install` hook in `Podfile` sets `SWIFT_ENABLE_EXPLICIT_
 | GitHub REST API v3 | `https://api.github.com` | OAuth2 bearer token (stored in UserDefaults via `AppToken`) | `GitHubAPI.swift`, `EventAPI.swift`, `IssueAPI.swift`, `SearchAPI.swift` |
 | GitHub OAuth | `https://github.com/login/oauth/authorize` | Client ID + secret from `BFThirdLibKey.swift` | `OAuthManager.swift` |
 | GitHub Trending (scrape) | `https://github.com/trending` | None (HTML scraping via Kanna) | `TrendingManager.swift` |
+| BeeFun Backend | `https://www.beefun.top:8082/beefun` | GitHub OAuth token forwarded as `Authorization` header | `BeeFunAPI.swift`, `BeeFunDBManager.swift` |
 | JPush | jiguang.cn | App key from `BFThirdLibKey.swift` | `JPushManager.swift` |
 | Crashlytics | firebase.google.com | Fabric API key (in `GoogleService-Info.plist` or legacy `Fabric.framework`) | `AppDelegate` via Fabric SDK |
+| UMeng Analytics | umeng.com | App key from `BFThirdLibKey.swift` | `BFLanunchManager.swift` via `MobClick` |
 
 ## Deployment (Fastlane)
 
@@ -74,6 +76,8 @@ Xcode 16 note: The `post_install` hook in `Podfile` sets `SWIFT_ENABLE_EXPLICIT_
 cd BeeFun
 bundle exec fastlane <lane>
 ```
+
+Available lanes: `test` (run tests), `beta` (TestFlight), `deploy` (App Store).
 
 Review credentials for the App Store review sandbox account are in `BeeFun/fastlane/metadata/review_information/`. These should not contain real developer credentials — use a dedicated Apple ID test account.
 

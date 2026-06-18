@@ -1,6 +1,6 @@
 # Architecture
 
-BeeFun Pro is a native iOS app written in Swift 5. It is also packaged as a GitHub iOS client. The source lives under `BeeFun/BeeFun/`.
+BeeFun Pro is a native iOS app written in Swift 5. The source lives under `BeeFun/BeeFun/`.
 
 ## Layer breakdown
 
@@ -33,17 +33,31 @@ CocoaPods-managed dependencies live in `BeeFun/Pods/` (not tracked).
 
 ## Networking
 
+Two separate API layers exist:
+
+### GitHub API (`GitHubAPI.swift`)
 - All GitHub API calls go through `Moya` on top of `Alamofire`.
-- `GitHubAPI` (a Moya `TargetType`) enumerates all endpoints.
+- `GitHubAPI` (a Moya `TargetType`) enumerates all endpoints: user info, repos, starring, notifications, watching, forks.
 - `Provider.sharedProvider` is the app-wide Moya provider instance.
-- Supplementary API files: `EventAPI.swift`, `IssueAPI.swift`, `SearchAPI.swift`, `TrendingManager.swift`.
-- `BFNetworkManager.swift` wraps response handling and error mapping.
-- `IdentityAndTrust.swift` handles SSL certificate pinning.
-- `SVGProcessor.swift` renders SVG images in repository pages.
+- Supplementary API files: `EventAPI.swift`, `IssueAPI.swift`, `SearchAPI.swift`.
+- Base URL: `https://api.github.com`
+
+### BeeFun Backend API (`BeeFunAPI.swift`)
+- A second Moya-based API layer talks to the BeeFun backend server at `https://www.beefun.top:8082/beefun` (currently offline).
+- Handles server-side DB sync, tag management, language lists, and trending data.
+- `BeeFunProvider.sharedProvider` is the provider instance.
+- `BeeFunDBManager` coordinates periodic sync of starred repos to the backend.
+
+### Other networking
+- `TrendingManager.swift` scrapes `https://github.com/trending` HTML via Kanna to extract trending repos, developers, and showcases.
+- `BFNetworkManager.swift` monitors network reachability (via `ReachabilitySwift`) and provides cookie/cache clearing utilities.
+- `IdentityAndTrust.swift` handles SSL certificate pinning via PKCS12 extraction.
+- `SVGProcessor.swift` (currently commented out) was intended to render SVG images in repository pages via Kingfisher.
 
 ## State and storage
 
-- `BeeFunDBManager.swift` provides a SQLite-backed store (via `SQLite.swift`) for persisting starred repositories and tags.
+- `SQLManager` provides a SQLite-backed store (via `SQLite.swift`) with a `github.sqlite3` database.
+- `SQLStars` and `SQLTags` manage the starred-repos and tags tables respectively.
 - `AppToken` reads/writes the GitHub access token in `UserDefaults`.
 - `BFLanunchManager` initialises all third-party SDKs once at launch.
 
@@ -59,8 +73,8 @@ CocoaPods-managed dependencies live in `BeeFun/Pods/` (not tracked).
 | `View/Event/` | Activity event feed |
 | `View/Issue/` | Issues browser |
 | `View/Gist/` | Gist browser |
-| `View/Search/` | Search across repos and users |
-| `View/Profile/` | Logged-in user profile |
+| `View/Search/` | Search across repos, users, code, commits, issues, wikis |
+| `View/Profile/` | Logged-in user profile, settings, feedback, sync |
 | `View/Message/` | In-app push/local notification UI |
 
 ## Third-party SDKs (Podfile)
@@ -74,7 +88,7 @@ CocoaPods-managed dependencies live in `BeeFun/Pods/` (not tracked).
 | SnapKit | Auto Layout DSL |
 | ObjectMapper | JSON model mapping |
 | SwiftyJSON | JSON access |
-| Kanna | HTML/XML parsing |
+| Kanna | HTML/XML parsing (trending page scraping) |
 | SQLite.swift | Structured local storage |
 | MJRefresh | Pull-to-refresh |
 | MBProgressHUD | Loading indicators |
@@ -89,11 +103,15 @@ CocoaPods-managed dependencies live in `BeeFun/Pods/` (not tracked).
 | iCarousel | Carousel UI |
 | SwipeCellKit | Swipe cell actions |
 | ReachabilitySwift | Network reachability |
+| IQKeyboardManagerSwift | Keyboard management |
+| HMSegmentedControl | Segmented control UI |
+| TOWebViewController | Web view controller |
+| SwiftLint | Code style linting |
 
 ## Fastlane
 
 `BeeFun/fastlane/` contains the deployment pipeline:
-- `Fastfile` — lane definitions
+- `Fastfile` — lane definitions (test, beta via TestFlight, deploy to App Store)
 - `Deliverfile` — App Store metadata delivery config
 - `Gymfile` — build settings
 - `Matchfile` — code signing via match
